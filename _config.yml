@@ -1,10 +1,10 @@
-title: GSS Financial Officer Guide
+title: GSS Executives and Staff Guide
 description: >-
-  A practical reference for the Financial Officer of the Graduate Student
+  A practical reference for executives and staff of the Graduate Student
   Society of UBC Vancouver.
 theme: just-the-docs
 url: "https://ubcgss.github.io"
-baseurl: "/financial_officer_guide"
+baseurl: "/executives_staff_guide"
 
 aux_links:
   "GSS Website":

@@ -4,12 +4,13 @@ title: Home
 nav_order: 1
 ---
 
-# GSS Financial Officer Guide
+# GSS Executives and Staff Guide
 
-This guide is a practical reference for the Financial Officer (FO) of the
-Graduate Student Society of UBC Vancouver. It consolidates the policies,
-procedures, and recurring tasks that shape the FO role into one searchable
-resource.
+This guide is a practical reference for executives and staff of the Graduate
+Student Society of UBC Vancouver. It consolidates policies, procedures, and
+recurring tasks into one searchable resource.
+
+The current content focuses on the Financial Officer (FO) role.
 
 The GSS fiscal year runs **June 1 through May 31**.
 
