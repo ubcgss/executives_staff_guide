@@ -8,7 +8,7 @@ Keep `AGENTS.md` and `CLAUDE.md` synchronized for project conventions, commands,
 
 **Development** — Jekyll / Just the Docs static documentation site deployed through GitHub Pages.
 
-The UBC Graduate Student Society (GSS) uses this site as a practical reference for executives and staff. The current content focuses on the Financial Officer (FO) role, its recurring responsibilities, systems, governance work, and transition tasks.
+The UBC Graduate Student Society (GSS) uses this site as a practical reference for executives and staff. The Financial Officer (FO) material is maintained as a detailed role section, while the other executive roles and Facilities section provide source-aware operating references that should be expanded only with verified material.
 
 ## Working rules
 
@@ -64,11 +64,24 @@ The local dev server runs at `http://localhost:4000/executives_staff_guide/`. Th
 ```
 index.md                    # Home page (layout: home)
 docs/
-  01-introduction/index.md  # FO role overview
-  02-regular-tasks/         # biweekly.md, monthly.md, quarterly.md, annual.md
-  03-systems/               # zoho.md, banking.md, investment.md
-  04-governance/            # council-reporting.md, hfc.md, budget-process.md
-  05-transition/            # accounts-access.md, files-records.md, checklist.md
+  01-president/index.md
+  02-vp-university-academic-affairs/index.md
+  03-vp-external-relations/index.md
+  04-vp-students/index.md
+  05-financial-officer/
+    index.md
+    introduction/index.md
+    regular-tasks/         # biweekly.md, monthly.md, quarterly.md, annual.md
+    systems/               # zoho.md, banking.md, investment.md
+    governance/            # council-reporting.md, hfc.md, budget-process.md
+    transition/            # accounts-access.md, files-records.md, checklist.md
+  06-facilities/
+    index.md
+    our-spaces/            # main-office.md, ballroom.md, shared-spaces.md
+    active-projects.md
+    key-contacts.md
+    agreements-leases.md
+    recurring-obligations.md
 _config.yml                 # Jekyll + Just the Docs config
 ```
 
@@ -82,7 +95,8 @@ layout: default
 title: Banking
 nav_order: 2
 parent: Systems
-permalink: /docs/03-systems/banking/
+grand_parent: Financial Officer
+permalink: /docs/05-financial-officer/systems/banking/
 ---
 ```
 
@@ -94,6 +108,7 @@ The `nav_order` within a section controls sidebar ordering. `nav_sort: case_inse
 - Keep pages task-oriented: responsibilities, deadlines, systems, contacts, and verification steps.
 - Use Just the Docs callouts for cautions or policy-verification notes.
 - Avoid embedding sensitive operational details such as credentials, exact banking identifiers, private staff-only links, or personal contact details.
+- In Facilities pages, publish only final/executed agreement links and approved project folder links; do not link negotiation folders, drafts, redlines, or private correspondence.
 - When referencing another GSS guide, use the live GitHub Pages URL unless a local relative link is clearly intended.
 
 ## Callouts and Mermaid

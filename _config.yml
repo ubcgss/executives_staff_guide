@@ -5,6 +5,7 @@ description: >-
 theme: just-the-docs
 url: "https://ubcgss.github.io"
 baseurl: "/executives_staff_guide"
+logo: "/images/gss-logo-teal.svg"
 
 aux_links:
   "GSS Website":

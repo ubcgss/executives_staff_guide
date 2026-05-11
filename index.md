@@ -10,7 +10,9 @@ This guide is a practical reference for executives and staff of the Graduate
 Student Society of UBC Vancouver. It consolidates policies, procedures, and
 recurring tasks into one searchable resource.
 
-The current content focuses on the Financial Officer (FO) role.
+The guide now includes top-level sections for each executive role, a full
+Financial Officer reference, and a Facilities operating reference. Non-FO role
+sections are intentionally skeletal until current source materials are added.
 
 The GSS fiscal year runs **June 1 through May 31**.
 
@@ -20,11 +22,12 @@ The GSS fiscal year runs **June 1 through May 31**.
 
 | Section | What it covers |
 |---------|---------------|
-| [Introduction](docs/01-introduction/) | Formal duties, relationships, honorarium, time commitment |
-| [Regular Tasks](docs/02-regular-tasks/) | Monthly, quarterly, and annual responsibilities with deadlines |
-| [Systems](docs/03-systems/) | Zoho, banking, investments, Payworks |
-| [Governance](docs/04-governance/) | Council reporting, HFC, budget process |
-| [Transition](docs/05-transition/) | Handoff checklists, system access, file records |
+| [President](docs/01-president/) | Placeholder for President responsibilities, systems, committees, and transition notes |
+| [VP University & Academic Affairs](docs/02-vp-university-academic-affairs/) | Placeholder for academic advocacy and university affairs guidance |
+| [VP External Relations](docs/03-vp-external-relations/) | Placeholder for external advocacy, campaigns, and coalition work |
+| [VP Students](docs/04-vp-students/) | Placeholder for student engagement, AO support, funds, and events |
+| [Financial Officer](docs/05-financial-officer/) | Detailed FO responsibilities, recurring tasks, systems, governance, and transition |
+| [Facilities](docs/06-facilities/) | Spaces, active projects, contacts, agreements, leases, and recurring obligations |
 
 ---
 
@@ -43,3 +46,7 @@ This guide summarizes GSS policy as of its last update. Always verify current
 policy against the official GSS Bylaws, Executive Policy, and House-Finance
 Policy before acting. Where a transition is flagged, confirm current status
 with the General Manager.
+
+{: .warning }
+Do not add credentials, account numbers, private access links, personal contact
+details, draft agreement folders, or negotiation materials to this public guide.
