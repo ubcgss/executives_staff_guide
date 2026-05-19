@@ -64,6 +64,15 @@ action initiative. Once the financial transaction and system seem suitable for
 continued use, the GSS plans to move all operating accounts to Vancity.
 Verify current status with the GM before acting on any Vancity account.
 
+### Payment Method Rules
+
+For Interac e-transfers, payments can be made through Vancity, but they require
+approval/signing by two executives or signing officers before release.
+
+For EFT payments, use Plooto. As of 2025, EFTs cannot be completed directly
+through Vancity online; Vancity EFTs require going to the branch. Confirm the
+current process with the GM before initiating any EFT outside Plooto.
+
 ---
 
 ## Plooto (Payment Platform)
