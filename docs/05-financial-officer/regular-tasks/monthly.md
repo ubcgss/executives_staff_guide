@@ -15,6 +15,16 @@ month**, except December where it falls on the **2nd Thursday**.
 
 ---
 
+## Vancity Credit Card Statement
+
+On the **10th of each month**, download the GSS Vancity credit card statement
+from Vancity online banking and send it to the Accountant.
+
+This provides the Accountant with the official statement needed for
+reconciliation and is the trigger for the cardholder expense upload cycle below.
+
+---
+
 ## Credit Card Expense Approvals (Zoho Expenses)
 
 GSS corporate credit cards are held by the General Manager ($10,000 limit),
