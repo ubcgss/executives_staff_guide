@@ -64,6 +64,8 @@ action initiative. Once the financial transaction and system seem suitable for
 continued use, the GSS plans to move all operating accounts to Vancity.
 Verify current status with the GM before acting on any Vancity account.
 
+**GSS account manager:** Krystina Narayan — Krystina_Narayan@vancity.com (Pinetree branch)
+
 ### Payment Method Rules
 
 For Interac e-transfers, payments can be made through Vancity, but they require
