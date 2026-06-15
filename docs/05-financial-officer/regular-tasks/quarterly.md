@@ -9,9 +9,17 @@ permalink: /docs/05-financial-officer/regular-tasks/quarterly/
 
 # Quarterly / Trimester Tasks
 
-The GSS fiscal year (June 1–May 31) is divided into **three trimesters**.
-At the end of each trimester the FO has two formal reporting obligations to
-Council.
+Bylaw 8.5.6(b) requires the FO to prepare and present complete financial
+statements and a budget summary to Council each trimester. There are three
+trimester reporting periods in the GSS fiscal year (June 1–May 31), plus a
+year-end presentation at the June meeting.
+
+| Period | Months covered | Council meeting |
+|--------|----------------|-----------------|
+| Q1 | June, July, August | September |
+| Q2 | September, October, November | December |
+| Q3 | December, January, February | March |
+| Year-end | March, April, May | June |
 
 ---
 
@@ -34,24 +42,26 @@ verify, and present.
 4. Present at the Council meeting following HFC review (no more than one
    month after HFC submission per HF Policy 3.9(c)).
 
----
-
-## Budget vs. Actuals Presentation
-
-At each trimester Council meeting, present a summary comparing the approved
-annual budget against actual expenditures to date for each department:
-
-| Dept | Budget (annual) | Actuals (YTD) | Variance | Notes |
-|------|----------------|---------------|----------|-------|
-| 10-CORP | ... | ... | ... | |
-| 11-PRES | ... | ... | ... | |
-| 12-VPUAA | ... | ... | ... | |
-| 13-VPEXT | ... | ... | ... | |
-| 14-VPSTD | ... | ... | ... | |
-
-Highlight any department where actuals are significantly ahead of or behind
-budget. Flag any line items that may require a budget reallocation.
-
 **Budget reallocation:** During the budget year, reallocations between budget
 lines may be made by the FO in consultation with the Executives and the HFC.
 Such redistributions must be reported to Council.
+
+---
+
+## Council Presentation
+
+The standard agenda item format is:
+
+```
+## Quarterly Financial Report [Quarter Year]
+
+**Responsible:** [Name], Financial Officer
+**Time:** [X] minutes
+
+**Background:** The Financial Officer presents the Society's quarterly budget
+and financial statements, explaining any variances from the approved budget.
+
+**Purpose:** To fulfill the Financial Officer's obligation under Bylaw 8.5.6(b)
+to prepare and present complete financial statements and a budget summary to
+Council each trimester.
+```

@@ -111,18 +111,50 @@ advise you and you will agree on a revised timing together.
 
 ## Council Presentation
 
-At each monthly Council meeting you present the financial update. The standard
-agenda item format is:
+Bylaw 8.5.6(a) requires the FO to report to Council on the financial situation
+of the Society on a monthly basis. In practice, this means preparing a brief
+presentation with two components:
+
+**1. Budget vs. Actuals**
+
+Last month's and year-to-date actuals, summarized by department and budget
+category. This section is generated automatically from the prior month's data,
+so no manual preparation is required beyond reviewing the output for accuracy.
+
+**2. Financial Developments**
+
+A brief update on relevant financial matters since the last Council meeting,
+which may include:
+- Items discussed or decided at the most recent House Finance Committee meeting
+- Investment account updates or reports
+- Outstanding items carried over from the prior Council meeting
+
+The standard agenda item format is:
 
 ```
-Title:              Financial Officer Report
-Responsible party:  Financial Officer
-Time:               [estimated minutes]
-Background:         [brief summary of the period's activity]
-Purpose/Objective:  To report to Council on the financial situation of the
-                    Society (Bylaw 8.5.6(a))
-Motion (if any):    BIRT / BIFRT [motion text, if approval is required]
+Title:        Monthly Financial Report - [Month Year]
+Responsible:  Financial Officer
+Time:         [X] minutes
+Background:   The Financial Officer presents an overview of the Society's
+              current financial situation, including any budget reallocations
+              made since the last Council meeting.
+Purpose:      To keep Council informed of the Society's financial position, as
+              required under Bylaw 8.5.6(a).
 ```
+
+---
+
+## Monthly FO Work Updates
+
+All executives submit individual work updates to Council each month. For the
+FO, this process is largely automated: provided you keep your work log and
+meeting notes current in Notion, the data is pulled into a
+[Google Sheet](https://docs.google.com/spreadsheets/d/1L1m10y5jLQjseSUQkC9rjXJG1Km4j2X1SBZsDNthWVI/edit?usp=sharing)
+and formatted for Council automatically.
+
+Select and copy the relevant entries into the agenda before each meeting:
+- **Council agenda:** the past four weeks of updates
+- **HFC agenda:** the past two weeks of updates
 
 ---
 
