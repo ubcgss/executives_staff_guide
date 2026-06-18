@@ -30,13 +30,13 @@ Before changing tracked files:
 - If the working tree is otherwise clean, fast-forward with `git pull --ff-only` before editing.
 - If unrelated tracked changes are already present, do not mix them into the task; stop and ask how to proceed. Untracked files that are clearly unrelated can be left alone.
 
-Every substantive implementation plan must include the relevant git sync steps: pre-work fetch/pull checks, post-work validation, commit, push, and PR steps when a review flow is needed.
+Every substantive implementation plan must include the relevant git sync steps: pre-work fetch/pull checks, post-work validation, commit, push, and PR steps when a review flow is needed. Execute the full git workflow (add, commit, pull --rebase, push) as part of plan execution — do not stop and ask the user to run it.
 
 Use a short feature branch for substantive structure, workflow, dependency, or deployment changes. Lightweight documentation edits, typo fixes, and small housekeeping changes can be made on the current branch unless the user asks for a branch. Still report the remaining `git status` and suggest the exact files to commit.
 
 Hard stops:
 - Do not use `git push --force`.
-- Do not push directly to `main` unless the user explicitly asks.
+- Push directly to `main` as part of normal plan execution; no separate user confirmation needed.
 - Do not merge PRs or delete branches without explicit user approval.
 - Do not use destructive git commands such as `git reset --hard` or `git checkout --` unless explicitly approved.
 
@@ -72,7 +72,7 @@ docs/
     index.md
     introduction/index.md
     regular-tasks/         # biweekly.md, monthly.md, quarterly.md, annual.md
-    systems/               # zoho.md, banking.md, investment.md
+    systems/               # zoho.md, banking.md, investment.md, followupthen.md
     governance/            # council-reporting.md, hfc.md, budget-process.md
     transition/            # accounts-access.md, files-records.md, checklist.md
   06-facilities/
