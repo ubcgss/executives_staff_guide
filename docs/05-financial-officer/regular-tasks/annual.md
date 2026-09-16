@@ -108,6 +108,37 @@ GM before taking any action on investment accounts.
 
 ---
 
+## Commercial Rent and Services Levy Payments
+
+The GSS's lease for Thea Koerner House with UBC generates two separate annual
+invoices from UBC Treasury (Contracts, Leases and Housing): **Commercial
+Rent** and the **Services Levy** (labeled GMSL on some UBC statements).
+
+When an invoice arrives (current UBC contact: Anita McGuinness, Senior
+Financial Analyst, Contracts, Leases and Housing, Treasury —
+anita.mcguinness@ubc.ca):
+
+1. **Add the invoice to the shared folder.** Upload it to the
+   [UBC Lease Invoices (Commercial Rent and Services Levy)](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/UBC%20Lease%20Invoices%20(Commercial%20Rent%20and%20Services%20Levy)?d=wb95d285f62464765ace41e150880fbcd&csf=1&web=1&e=8f7e99)
+   folder in the Finance and Accounting Teams channel.
+2. **Verify the invoice is accurate.** Compare the invoiced amount (rent and
+   levy are each billed pre-tax + GST) against UBC's most recent open item
+   statement for the GSS account, not just the invoice total.
+3. **Upload the invoice to Zoho Expense.** Record it under budget code `6500`
+   (Commercial Rent / Services Levy) in Zoho Expense.
+4. **Initiate the payment on Vancity.** Initiate it as a bill payment to the
+   UBC account on file.
+5. **Send the receipt and obtain confirmation.** Email the payment
+   confirmation/receipt to UBC Treasury, the Accountant, and the GM, and ask
+   UBC Treasury to confirm it was applied to the correct invoice.
+
+{: .note }
+Full history of past UBC commercial rent and services levy invoices (2021–2025
+arrears) is in Dropbox under `Operations (including TKH)/House Finance
+Committee/Tasks/2026-01 - UBC-GSS Pending Lease Fees/UBC Invoices/`.
+
+---
+
 ## AO Event Fund Administration
 
 The GSS Event Fund (Policy 9) provides financial rebates to Affiliate
