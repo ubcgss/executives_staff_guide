@@ -132,11 +132,6 @@ anita.mcguinness@ubc.ca):
    confirmation/receipt to UBC Treasury, the Accountant, and the GM, and ask
    UBC Treasury to confirm it was applied to the correct invoice.
 
-{: .note }
-Full history of past UBC commercial rent and services levy invoices (2021–2025
-arrears) is in Dropbox under `Operations (including TKH)/House Finance
-Committee/Tasks/2026-01 - UBC-GSS Pending Lease Fees/UBC Invoices/`.
-
 ---
 
 ## AO Event Fund Administration
