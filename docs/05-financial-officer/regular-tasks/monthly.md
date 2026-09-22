@@ -17,8 +17,11 @@ month**, except December where it falls on the **2nd Thursday**.
 
 ## Vancity Credit Card Statement
 
-On the **10th of each month**, download the GSS Vancity credit card statement
-from Vancity online banking and send it to the Accountant.
+On the **10th of each month**:
+1. Download the GSS Vancity credit card statement
+from [Vancity online banking](https://creditcards.vancity.com/).
+2. Add the statement to the [Teams folder with Vancity statements](https://ubcgss.sharepoint.com/:f:/r/sites/GSSExpenses2021-22/Shared%20Documents/GSS%20Credit%20Card%20Expenses/2025-2026%20Bank%20and%20Credit%20Card%20Statement/Vancity%20(June%202025-May2026)/Vancity%20Credit%20Card%200139?d=w54ac96060bc04af4896b9c26e618849e&csf=1&web=1&e=rT027d)
+3. Send the statement to the Accountant and General Manager. *Note: This email is already written so you only have to find it, click on ''send again'' and include the updated statement.*
 
 This provides the Accountant with the official statement needed for
 reconciliation and is the trigger for the cardholder expense upload cycle below.
