@@ -1,10 +1,10 @@
 ---
 layout: default
 title: FollowUpThen
-parent: Systems
+parent: Tools
 grand_parent: Financial Officer
-nav_order: 4
-permalink: /docs/05-financial-officer/systems/followupthen/
+nav_order: 3
+permalink: /docs/05-financial-officer/tools/followupthen/
 ---
 
 # FollowUpThen
@@ -29,3 +29,9 @@ The reminder arrives as an email with the original message attached.
 - **Contract negotiations** — BCC a future date when a vendor contract is up for renegotiation or renewal.
 - **Pending accounts** — Follow up on outstanding invoices, reimbursements, or cheque requisitions that haven't been confirmed.
 - **Banking follow-ups** — Remind yourself to confirm a Plooto transfer cleared or a Vancity document was received.
+
+{: .note }
+For reminders about a single email you already have in the inbox, Spark's
+built-in snooze and reminders are often quicker. See [Spark](../spark/).
+Use FollowUpThen when the reminder should arrive by email at any address, or
+when you are working outside Spark.

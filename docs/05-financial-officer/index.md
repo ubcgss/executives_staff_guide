@@ -10,13 +10,14 @@ permalink: /docs/05-financial-officer/
 
 This section preserves the detailed Financial Officer reference material from
 the original guide. It covers the FO role, recurring finance cycle, systems,
-governance responsibilities, and transition tasks.
+productivity tools, governance responsibilities, and transition tasks.
 
 | Area | What it covers |
 |------|---------------|
 | [Introduction](introduction/) | Formal duties, relationships, honorarium, time commitment |
 | [Regular Tasks](regular-tasks/) | Biweekly, monthly, quarterly, and annual responsibilities |
 | [Systems](systems/) | Zoho, banking, investments, Payworks, and related access |
+| [Tools](tools/) | Claude, the Zoho MCP, Spark, and FollowUpThen |
 | [Governance](governance/) | Council reporting, HFC, and budget process |
 | [Transition](transition/) | Handoff checklists, system access, and records |
 
