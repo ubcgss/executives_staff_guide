@@ -29,6 +29,9 @@ callouts:
   warning:
     title: Warning
     color: yellow
+  missing-invoice:
+    title: If the invoice has not arrived by month end
+    color: blue
 
 nav_sort: case_insensitive
 
