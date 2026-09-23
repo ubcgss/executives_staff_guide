@@ -48,6 +48,19 @@ incoming FO is invited before handoff.
 
 ---
 
+## Key Documents to Save Before Handoff
+
+There are key documents that must be saved before you hand off to the incoming
+Financial Officer:
+
+| Done | Document | Save to |
+|------|----------|---------|
+| [ ] | Draft and final audited financial statements for the year, including trial balances and adjusting entries | [Audits](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Audits?d=wa4b1f996c5624d28af64531b43ae9c8f&csf=1&web=1&e=hYK3E7)<br>`Finance and Accounting > Audits` |
+| [ ] | Commercial rent and services levy request, invoice, and proof of payment for the year | [UBC Lease Invoices (Commercial Rent and Services Levy)](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/UBC%20Lease%20Invoices%20(Commercial%20Rent%20and%20Services%20Levy)?d=wb95d285f62464765ace41e150880fbcd&csf=1&web=1&e=8f7e99)<br>`Finance and Accounting > UBC Lease Invoices (Commercial Rent and Services Levy)` |
+| [ ] | Monthly bank and credit card statements | [Bank Statements](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Bank%20Statements?d=w7ffa56e5dc7d4846928231ebf4554dd3&csf=1&web=1&e=y44paB)<br>`Finance and Accounting > Bank Statements` |
+
+---
+
 ## What to Archive vs. Hand Off Actively
 
 | Item | Action |
