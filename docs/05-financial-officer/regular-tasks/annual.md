@@ -127,10 +127,15 @@ anita.mcguinness@ubc.ca):
 3. **Upload the invoice to Zoho Expense.** Record it under budget code `6500`
    (Commercial Rent / Services Levy) in Zoho Expense.
 4. **Initiate the payment on Vancity.** Initiate it as a bill payment to the
-   UBC account on file.
+   UBC account on file. Obtain approval from the President or VP UAA, as this
+   account is two-to-sign.
 5. **Send the receipt and obtain confirmation.** Email the payment
    confirmation/receipt to UBC Treasury, the Accountant, and the GM, and ask
    UBC Treasury to confirm it was applied to the correct invoice.
+6. **Save the confirmation of payment.** Upload the proof of payment to the
+   [UBC Lease Invoices (Commercial Rent and Services Levy)](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/UBC%20Lease%20Invoices%20(Commercial%20Rent%20and%20Services%20Levy)?d=wb95d285f62464765ace41e150880fbcd&csf=1&web=1&e=8f7e99)
+   folder. UBC has not been consistent at tracking these payments, so we keep
+   our own record of every payment for future reference.
 
 ---
 
