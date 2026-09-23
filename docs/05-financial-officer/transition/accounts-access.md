@@ -27,6 +27,8 @@ how to request or transfer it, and who the relevant contact is.
 | **Payworks** | Timesheet / payroll approval | GM adds/removes | GM |
 | **Dropbox** | Access to Work/UBC GSS/ folder tree | GM or President invites | GM |
 | **Notion** | Access to GSS workspace | GM or President invites | GM |
+| **Spark** | `finance@gss.ubc.ca` mailbox | GM transfers mailbox access; incoming FO adds it to Spark | GM |
+| **Claude** | GSS Claude account and Zoho / Notion connectors | Confirm with GM | GM |
 | **Investment accounts** | Authorized signatory status | Requires bank/investment manager paperwork | GM + investment manager |
 | **GSS debit card** | FO debit card linked to operating account | Outgoing FO returns card; incoming FO issued new card | GM / bank branch |
 

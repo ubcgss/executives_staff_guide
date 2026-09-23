@@ -72,7 +72,8 @@ docs/
     index.md
     introduction/index.md
     regular-tasks/         # biweekly.md, monthly.md, quarterly.md, annual.md
-    systems/               # zoho.md, banking.md, investment.md, followupthen.md
+    systems/               # zoho.md, banking.md, investment.md
+    tools/                 # claude.md (incl. Zoho MCP), spark.md, followupthen.md
     governance/            # council-reporting.md, hfc.md, budget-process.md
     transition/            # accounts-access.md, files-records.md, checklist.md
   06-facilities/

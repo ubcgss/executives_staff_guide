@@ -19,4 +19,7 @@ system's purpose, FO-specific access, and key workflows.
 | [Banking](banking/) | Scotiabank, Vancity (in transition), Plooto | Full debit card + online access |
 | [Payworks](banking/) | Timesheets, semi-monthly payroll | Approval of WL timesheets |
 | [Investments](investment/) | GICs, Mutual Funds, RBC DS (in transition) | Review / signatory |
-| [FollowUpThen](followupthen/) | Email reminders | Forward / BCC to time address |
+
+{: .note }
+Productivity tools that sit on top of these systems (Claude, the Zoho MCP,
+Spark, and FollowUpThen) are covered under [Tools](../tools/).

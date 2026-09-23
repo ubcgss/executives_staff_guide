@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Transition
-nav_order: 5
+nav_order: 6
 parent: Financial Officer
 has_children: true
 permalink: /docs/05-financial-officer/transition/

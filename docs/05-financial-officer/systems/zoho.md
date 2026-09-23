@@ -12,6 +12,10 @@ permalink: /docs/05-financial-officer/systems/zoho/
 The GSS uses two Zoho products: **Zoho Expenses** for transaction approval
 workflows and **Zoho Books** for the accounting ledger and financial reports.
 
+{: .note }
+Claude can read Zoho Books reports and review Zoho Expense reports through the
+[Zoho MCP](../../tools/claude/#zoho-mcp) connector.
+
 ---
 
 ## Zoho Expenses — Approval Chain
