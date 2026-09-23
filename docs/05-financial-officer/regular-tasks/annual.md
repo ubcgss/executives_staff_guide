@@ -139,15 +139,12 @@ anita.mcguinness@ubc.ca):
    folder. UBC has not been consistent at tracking these payments, so we keep
    our own record of every payment for future reference.
 
-**If the invoice has not arrived by month end.** If UBC has not issued the
+{: .note }
+**If the invoice has not arrived by month end:** If UBC has not issued the
 Commercial Rent (January) or Services Levy (July) invoice by the last day of
-that month:
-
-1. Send weekly reminders to UBC Treasury until the invoice is received.
-2. Notify the HFC.
-3. Notify Council.
-
-Once the invoice arrives, resume at step 1 above.
+that month, (1) send weekly reminders to UBC Treasury until the invoice is
+received, (2) notify the HFC, and (3) notify Council. Once the invoice
+arrives, resume at step 1 above.
 
 ---
 
