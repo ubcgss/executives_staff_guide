@@ -19,12 +19,12 @@ annual task is the budget process, which runs February through May.
 | Month | Key task |
 |-------|---------|
 | June | New fiscal year begins; confirm budget is distributed |
-| July | FO election at Council meeting |
+| July | FO election at Council meeting; Services Levy invoice expected from UBC |
 | August | Outgoing FO transitional report due; incoming FO takes office (Aug 31) |
 | September | First HFC meeting of new fiscal year |
 | October–November | Monitor budget vs. actuals; trimester 1 ends |
 | December | Capital asset audit (GM, first 2 weeks); HFC reviews audit report |
-| January–February | Trimester 2 ends; begin budget review and timeline for next year |
+| January–February | Trimester 2 ends; Commercial Rent invoice expected from UBC (January); begin budget review and timeline for next year |
 | February | Send budget timeline + line template; all-candidate meeting |
 | March | Meet elected executives re. preliminary goals |
 | April | First and second departmental draft budgets to HFC |
@@ -108,11 +108,13 @@ GM before taking any action on investment accounts.
 
 ---
 
-## Commercial Rent and Services Levy Payments
+## Commercial Rent (January) and Services Levy (July) Payments
 
 The GSS's lease for Thea Koerner House with UBC generates two separate annual
 invoices from UBC Treasury (Contracts, Leases and Housing): **Commercial
-Rent** and the **Services Levy** (labeled GMSL on some UBC statements).
+Rent** and the **Services Levy** (labeled GMSL on some UBC statements). UBC
+normally issues the Commercial Rent invoice in **January** and the Services
+Levy invoice in **July**.
 
 When an invoice arrives (current UBC contact: Anita McGuinness, Senior
 Financial Analyst, Contracts, Leases and Housing, Treasury —
@@ -136,6 +138,16 @@ anita.mcguinness@ubc.ca):
    [UBC Lease Invoices (Commercial Rent and Services Levy)](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/UBC%20Lease%20Invoices%20(Commercial%20Rent%20and%20Services%20Levy)?d=wb95d285f62464765ace41e150880fbcd&csf=1&web=1&e=8f7e99)
    folder. UBC has not been consistent at tracking these payments, so we keep
    our own record of every payment for future reference.
+
+**If the invoice has not arrived by month end.** If UBC has not issued the
+Commercial Rent (January) or Services Levy (July) invoice by the last day of
+that month:
+
+1. Send weekly reminders to UBC Treasury until the invoice is received.
+2. Notify the HFC.
+3. Notify Council.
+
+Once the invoice arrives, resume at step 1 above.
 
 ---
 
