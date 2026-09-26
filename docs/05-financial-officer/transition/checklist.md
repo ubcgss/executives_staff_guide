@@ -45,6 +45,9 @@ Complete these before or by August 31 (the date the incoming FO takes office).
 - [ ] Remove all personal belongings from office
 - [ ] Return GSS equipment (debit card, office keys, etc.) to GM
 - [ ] Ensure all system access is transferred (see [System Access](accounts-access/))
+- [ ] Disable your Zoho MCP access: remove the connector from your Claude
+      account and revoke your connection on the AutomatedGSSReports server (see
+      [Claude and the Zoho MCP](../accounts-access/#claude-and-the-zoho-mcp))
 - [ ] Clean and organize physical office space per EOC direction
 
 ### Position Reviews (15%)
@@ -65,6 +68,8 @@ Complete these before or by August 31 (the date the incoming FO takes office).
 ### Week 1 (August 31 – September 7)
 - [ ] Confirm access to all systems (Zoho Expenses, Zoho Books, Scotia Online,
       Scotia Connect, Plooto, Payworks, Dropbox, Notion)
+- [ ] Set up your own Zoho MCP connection in Claude (see
+      [How to set it up](../../tools/claude/#how-to-set-it-up))
 - [ ] Receive FO debit card from bank (coordinate with GM)
 - [ ] Confirm signing authority has been updated at the bank (two of three:
       President / FO / VP UAA)

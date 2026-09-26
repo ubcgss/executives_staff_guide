@@ -28,7 +28,7 @@ how to request or transfer it, and who the relevant contact is.
 | **Dropbox** | Access to Work/UBC GSS/ folder tree | GM or President invites | GM |
 | **Notion** | Access to GSS workspace | GM or President invites | GM |
 | **Spark** | `finance@gss.ubc.ca` mailbox | GM transfers mailbox access; incoming FO adds it to Spark | GM |
-| **Claude** | GSS Claude account and Zoho / Notion connectors | Confirm with GM | GM |
+| **Claude** | GSS Claude account; Zoho MCP and Notion connectors | Outgoing FO disables their Zoho MCP access; incoming FO sets up their own ([How to set it up](../../tools/claude/#how-to-set-it-up)) | GM |
 | **Investment accounts** | Authorized signatory status | Requires bank/investment manager paperwork | GM + investment manager |
 | **GSS debit card** | FO debit card linked to operating account | Outgoing FO returns card; incoming FO issued new card | GM / bank branch |
 
@@ -40,6 +40,23 @@ how to request or transfer it, and who the relevant contact is.
 The Accountant and GM have primary access to Zoho Books accounting data. The
 FO may request access. On transition, the GM should update the approver list
 in Zoho Expenses so the new FO receives the level-4 approval queue.
+
+### Claude and the Zoho MCP
+Each FO connects Claude to Zoho through their own connection on the
+AutomatedGSSReports server, so access does not pass on automatically.
+
+**Outgoing FO** (on or before August 31):
+1. In Claude, go to [Customize → Connectors](https://claude.ai/new#customize/connectors)
+   and remove the Zoho Expense connector.
+2. In [Zoho MCP](https://mcp.zoho.com/mcp-client/933047808#/server), open the
+   AutomatedGSSReports server and revoke or delete the integration URL /
+   connection you used.
+
+**Incoming FO:**
+1. Confirm the previous FO's connection is gone from the AutomatedGSSReports
+   server.
+2. Follow [How to set it up](../../tools/claude/#how-to-set-it-up) to create
+   your own connection, keep the delete tools off, and install the receipt skill.
 
 ### Scotiabank
 Both Scotia Online and Scotia Connect access require the new FO to be added
