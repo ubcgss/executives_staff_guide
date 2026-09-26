@@ -156,9 +156,9 @@ systems themselves.
 6. **Test it:** ask *"List my Zoho Expense reports from this month."*
 
 {: .note }
-> **At FO handover:** the outgoing FO removes the Zoho connector from their own
-> Claude account, and the incoming FO checks the AutomatedGSSReports server for
-> any old integration URL or token that should be revoked.
+> **At FO handover:** the outgoing FO disables their Zoho MCP access and the
+> incoming FO sets up their own. See
+> [System Access → Claude and the Zoho MCP](../../transition/accounts-access/#claude-and-the-zoho-mcp).
 
 **What it can do:**
 - **Zoho Books:** read reports, including budget vs. actuals, profit and loss,
@@ -196,8 +196,10 @@ autoscan gets wrong and to build the report.
    to confirm the total and each tax match the receipt to the cent, and gives
    you the report number. Submit it yourself.
 
-Autoscan reliably reads the merchant, date, total and invoice number. It usually
-gets these wrong, so Claude always checks them:
+Autoscan reliably reads the merchant, date, total and invoice number.
+
+{% comment %}
+It usually gets these wrong, so Claude always checks them:
 
 | Field | Typical autoscan result |
 |---|---|
@@ -205,6 +207,7 @@ gets these wrong, so Claude always checks them:
 | Tax | None, even when the receipt shows GST and PST |
 | Department tag | Empty (it is mandatory) |
 | Description | Raw text read off the receipt |
+{% endcomment %}
 
 {: .note }
 > **Known limits (as of September 2026):**
