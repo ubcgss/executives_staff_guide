@@ -132,15 +132,19 @@ correct anything.
 ## Zoho MCP
 
 The Zoho MCP is a Claude connector that lets Claude work with the GSS Zoho
-account directly. Add it in Claude's settings under **Connectors** and sign in
-with the FO's Zoho login. See [Zoho](../../systems/zoho/) for the systems themselves.
+account directly. Each FO sets up their own connection (see
+[Setting up the connector](#setting-up-the-connector-new-fo)). See
+[Zoho](../../systems/zoho/) for the systems themselves.
 
 **What it can do:**
 - **Zoho Books:** read reports, including budget vs. actuals, profit and loss,
   and expenses by category, customer, or project.
-- **Zoho Expense:** read and update expense reports and expenses.
+- **Zoho Expense:** read and update expense reports and expenses, create
+  reports, and move expenses between reports.
 
 **FO uses:**
+- **File receipts.** Turn an autoscanned receipt into a correctly coded draft
+  report. See [Filing receipts](#filing-receipts-with-claude) below.
 - **Pre-review the approval queue.** Ask Claude to go through the reports
   awaiting your level-4 approval and flag missing receipts, wrong budget lines,
   or amounts that don't match the receipt.
@@ -151,11 +155,60 @@ with the FO's Zoho login. See [Zoho](../../systems/zoho/) for the systems themse
 - **Budget questions.** For example, *"Which department lines are over 80% of
   budget with a quarter left?"*
 
+### Filing receipts with Claude
+
+The `zoho-receipt-to-report` skill (in [`ubcgss/kip`](https://github.com/ubcgss/kip))
+holds the GSS coding rules: categories, taxes, cards, departments, budget
+categories and the report title format. Claude uses it to fix what Zoho's
+autoscan gets wrong and to build the report.
+
+1. **Upload the receipt to Zoho Expense autoscan.** Drag it into the web app, or
+   take a photo in the Zoho Expense mobile app. Wait about a minute for the scan.
+2. **Drop the same receipt into a Claude chat** and ask, for example, *"File this
+   receipt in Zoho."*
+3. **Check Claude's table.** It shows what autoscan read and what Claude will
+   change: category, tax, card, Department tag, report title and budget
+   category. Reply *yes*, or correct it.
+4. **Review and submit.** Claude creates the report as a **draft**, re-reads it
+   to confirm the total and each tax match the receipt to the cent, and gives
+   you the report number. Submit it yourself.
+
+Autoscan reliably reads the merchant, date, total and invoice number. It usually
+gets these wrong, so Claude always checks them:
+
+| Field | Typical autoscan result |
+|---|---|
+| Paid through | `1010 - Petty Cash` / Cash, not the card on the receipt |
+| Tax | None, even when the receipt shows GST and PST |
+| Department tag | Empty (it is mandatory) |
+| Description | Raw text read off the receipt |
+
+### Setting up the connector (new FO)
+
+1. Sign in to the Zoho MCP console with the **FO Zoho account**. Open the GSS
+   Zoho Expense server, **delete the previous FO's token**, create a new one, and
+   copy the server URL.
+2. In the tool list, keep the list, get, create and update tools and
+   *remove expenses from report* on. Keep every **delete** tool off. Deleting
+   stays a manual step in the Zoho web app.
+3. In Claude, go to **Settings → Connectors**, add a custom connector with that
+   URL, and connect.
+4. Install the skill. In `ubcgss/kip`, download
+   `.claude/skills/zoho-receipt-to-report/`, zip the folder, and upload it in
+   Claude under **Settings → Capabilities → Skills** (code execution must be on).
+   In Claude Code, the skill is already there when you work in the `kip` repo.
+5. Test it: *"List my Zoho Expense reports from this month."*
+
 {: .note }
 > **Known limits (as of September 2026):**
 >
-> - Deleting expenses through the connector fails with an authorization error,
->   so delete in the Zoho web app.
+> - **The connector cannot upload files.** Receipts go into Zoho through
+>   autoscan (web upload or mobile app), never through Claude.
+> - **It cannot read the category or tax lists** (authorization error). The
+>   skill carries its own copy of these. Update it when the chart of accounts,
+>   taxes or cards change.
+> - **Deleting** through the connector fails with an authorization error, so
+>   delete in the Zoho web app.
 > - To see reports submitted by other people, Claude needs to use the
 >   **approval** view. The default view shows only your own reports.
 > - On an expense, `amount` is **pre-tax** and `total` is what was actually
