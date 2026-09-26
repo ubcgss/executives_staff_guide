@@ -133,8 +133,32 @@ correct anything.
 
 The Zoho MCP is a Claude connector that lets Claude work with the GSS Zoho
 account directly. Each FO sets up their own connection (see
-[Setting up the connector](#setting-up-the-connector-new-fo)). See
-[Zoho](../../systems/zoho/) for the systems themselves.
+[How to set it up](#how-to-set-it-up)). See [Zoho](../../systems/zoho/) for the
+systems themselves.
+
+### How to set it up
+
+1. Log in to [Zoho MCP](https://mcp.zoho.com/mcp-client/933047808#/server) with
+   the **FO Zoho account** and select the **AutomatedGSSReports** server.
+2. Add a new connector to Claude at
+   [Customize → Connectors](https://claude.ai/new#customize/connectors), using the
+   integration URL from the Zoho MCP website.
+3. In the connector's tool permissions, set all **read-only** tools (list, get,
+   report tools) to run **without asking**, and set every tool that **can write**
+   (create, update, add, remove, submit) to **ask** mode, so Claude shows you each
+   change before it runs.
+4. **Keep the delete tools off** on the Zoho MCP server. Deleting stays a manual
+   step in the Zoho web app.
+5. **Install the receipt skill.** In [`ubcgss/kip`](https://github.com/ubcgss/kip),
+   download `.claude/skills/zoho-receipt-to-report/`, zip the folder, and upload it
+   in Claude under **Customize → Skills** (code execution must be on). In Claude
+   Code, the skill is already there when you work in the `kip` repo.
+6. **Test it:** ask *"List my Zoho Expense reports from this month."*
+
+{: .note }
+> **At FO handover:** the outgoing FO removes the Zoho connector from their own
+> Claude account, and the incoming FO checks the AutomatedGSSReports server for
+> any old integration URL or token that should be revoked.
 
 **What it can do:**
 - **Zoho Books:** read reports, including budget vs. actuals, profit and loss,
@@ -143,8 +167,9 @@ account directly. Each FO sets up their own connection (see
   reports, and move expenses between reports.
 
 **FO uses:**
-- **File receipts.** Turn an autoscanned receipt into a correctly coded draft
-  report. See [Filing receipts](#filing-receipts-with-claude) below.
+- **Create reports and upload expenses.** Turn an autoscanned receipt into a
+  correctly coded draft report. See [Filing receipts](#filing-receipts-with-claude)
+  below.
 - **Pre-review the approval queue.** Ask Claude to go through the reports
   awaiting your level-4 approval and flag missing receipts, wrong budget lines,
   or amounts that don't match the receipt.
@@ -152,8 +177,6 @@ account directly. Each FO sets up their own connection (see
   `YYYY-MM | PORTFOLIO-CODE | Budget Category | Purpose`, for example
   `2026-06 | 10-CORP | Operations, Facilities & IT | Office Coffee`. Missing parts
   come from the report's Department tag and budget category field, not guesswork.
-- **Budget questions.** For example, *"Which department lines are over 80% of
-  budget with a quarter left?"*
 
 ### Filing receipts with Claude
 
@@ -182,22 +205,6 @@ gets these wrong, so Claude always checks them:
 | Tax | None, even when the receipt shows GST and PST |
 | Department tag | Empty (it is mandatory) |
 | Description | Raw text read off the receipt |
-
-### Setting up the connector (new FO)
-
-1. Sign in to the Zoho MCP console with the **FO Zoho account**. Open the GSS
-   Zoho Expense server, **delete the previous FO's token**, create a new one, and
-   copy the server URL.
-2. In the tool list, keep the list, get, create and update tools and
-   *remove expenses from report* on. Keep every **delete** tool off. Deleting
-   stays a manual step in the Zoho web app.
-3. In Claude, go to **Settings → Connectors**, add a custom connector with that
-   URL, and connect.
-4. Install the skill. In `ubcgss/kip`, download
-   `.claude/skills/zoho-receipt-to-report/`, zip the folder, and upload it in
-   Claude under **Settings → Capabilities → Skills** (code execution must be on).
-   In Claude Code, the skill is already there when you work in the `kip` repo.
-5. Test it: *"List my Zoho Expense reports from this month."*
 
 {: .note }
 > **Known limits (as of September 2026):**
