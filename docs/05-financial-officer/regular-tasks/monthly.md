@@ -161,12 +161,6 @@ Select and copy the relevant entries into the agenda before each meeting:
 
 ---
 
-## HFC Transaction Review
-
-The HFC monthly reviews all GSS financial transactions and may request further
-information or clarification from the GM, Accountant, and FO. The HFC may
-resolve that a financial transaction be discontinued.
-
 The FO and GM must submit the budget and profit and loss statements to the HFC
 **within five weeks of the end of the month to be reviewed** (HF Policy
 3.9(b)).
