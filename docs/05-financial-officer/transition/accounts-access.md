@@ -22,7 +22,7 @@ how to request or transfer it, and who the relevant contact is.
 | **Zoho Books** | Read access (request via GM) | GM grants/revokes access | GM |
 | **Scotiabank — Scotia Online** | Online banking credentials | Bank branch or GM coordinates | GM / Scotiabank branch |
 | **Scotiabank — Scotia Connect** | Full access (transfers, EFT, payroll) | GM coordinates with bank | GM / Scotiabank branch |
-| **Vancity Credit Union** | To be confirmed during migration | GM coordinates | GM |
+| **Vancity Credit Union** | To be confirmed during migration | GM coordinates | GM / Krystina Narayan (Vancity account manager) |
 | **Plooto** | Approval rights for payment runs | GM adds/removes in Plooto admin | GM |
 | **Payworks** | Timesheet / payroll approval | GM adds/removes | GM |
 | **Dropbox** | Access to Work/UBC GSS/ folder tree | GM or President invites | GM |
@@ -63,6 +63,14 @@ Both Scotia Online and Scotia Connect access require the new FO to be added
 at the bank. This typically requires a branch visit or GM-coordinated
 paperwork. Coordinate with the GM **before** August 31 to avoid a gap in
 signing authority.
+
+### Vancity
+The GSS account manager at Vancity is **Krystina Narayan**
+(Krystina_Narayan@vancity.com, Pinetree branch). Contact her for signer
+changes, adding or removing credit card holders, card limits, and general
+account questions. The step-by-step process for signers and cards is under
+[Changing Signing Authority](#changing-signing-authority); see
+[Banking](../../systems/banking/) for an overview of the GSS accounts.
 
 ### Debit Card
 The FO debit card grants authority to withdraw and transfer funds. The
@@ -123,7 +131,8 @@ begins on May 1. Work backwards from that date:
 
 Update the visa administrator. If you need additional cards, you can also
 request to add additional card holders. For this you can contact the Vancity
-line and this can be done online.
+line or the GSS account manager (see [Vancity](#vancity)), and this can be
+done online.
 
 ### Investment Accounts
 Changing the authorized signatories on investment accounts requires paperwork
