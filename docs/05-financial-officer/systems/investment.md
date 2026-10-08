@@ -24,12 +24,11 @@ Policy (SIP).
 
 ---
 
-## Investment Manager Transition
+## Investment Manager
 
-{: .note }
-As of the guide's last update, the GSS is in the process of transitioning its
-investment manager to **RBC Dominion Securities**. Verify the current status
-of this transition with the GM before taking any action on investment accounts.
+GSS investments are held at **RBC PH&N**, with one account per fund. RBC PH&N
+issues statements quarterly; the FO saves each one and reports it to the HFC
+(see [Investment Statements](../../regular-tasks/monthly/#investment-statements-quarterly)).
 
 ---
 

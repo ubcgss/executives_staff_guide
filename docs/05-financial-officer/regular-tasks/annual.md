@@ -101,10 +101,7 @@ not required in the short term.
 Conduct an annual review of the investment portfolio in consultation with the
 GM and the Society's investment manager.
 
-{: .note }
-As of the guide's last update, the GSS is in the process of transitioning its
-investment manager to RBC Dominion Securities. Verify current status with the
-GM before taking any action on investment accounts.
+The Society's investment manager is **RBC PH&N**.
 
 ---
 

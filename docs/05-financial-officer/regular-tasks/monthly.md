@@ -15,18 +15,33 @@ month**, except December where it falls on the **2nd Thursday**.
 
 ---
 
-## Vancity Banking and Credit Card Statements
+## Download and Share Bank, Credit Card, and Investment Statements
 
 On the **10th of each month**:
 1. Download the GSS Vancity statements:
    - **Credit card statement** from [Vancity credit card online banking](https://creditcards.vancity.com/).
    - **Bank account statements** (previous month, one per Vancity account) from [Vancity online banking](https://my.vancity.com/banking/home).
-2. Add the statements to the [Teams folder with Vancity statements](https://ubcgss.sharepoint.com/:f:/r/sites/GSSExpenses2021-22/Shared%20Documents/GSS%20Credit%20Card%20Expenses/2025-2026%20Bank%20and%20Credit%20Card%20Statement/Vancity%20(June%202025-May2026)/Vancity%20Credit%20Card%200139?d=w54ac96060bc04af4896b9c26e618849e&csf=1&web=1&e=rT027d)
+2. Add the statements to the matching folder in the Finance and Accounting SharePoint:
+   - [Vancity Banking](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Bank%20and%20Investment%20Statements/Vancity%20Banking%2091577945?d=w39798ac73b464cb4bb5e1203813f6911&csf=1&web=1&e=Twgk4d): bank account statements
+   - [Vancity Credit Card](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Bank%20and%20Investment%20Statements/Vancity%20Credit%20Card%200139?d=w952d009b46ea4af8a3326fcc7252f5e7&csf=1&web=1&e=bhbpVg): credit card statements
 3. Send the statements to the Accountant and General Manager. *Note: This email is already written so you only have to find it, click on ''send again'' and include the updated statements. The subject line starts with "Vancity Statements yyyy-mm" (update to the current month).*
 
 This provides the Accountant with the official statements needed for
 reconciliation. The credit card statement is also the trigger for the
 cardholder expense upload cycle below.
+
+### Investment Statements (Quarterly)
+
+GSS investments are held at **RBC PH&N**, which issues statements quarterly.
+Each quarter:
+1. Download the statement for the quarter ending **March 31, June 30,
+   September 30, or December 31**.
+2. Save it to the [Investment Statements folder](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Banking,%20Credit%20Card,%20and%20Investment%20Statements/Scotiabank%20Investment?d=w5738858315064b668294c98def60a1ee&csf=1&web=1&e=MHOlN5).
+3. **Report the statement to the HFC** at the first HFC meeting after
+   quarter-end (usually in April, July, October, and January).
+
+See [Investment Accounts](../../systems/investment/) for the SIP and the
+annual review.
 
 ---
 

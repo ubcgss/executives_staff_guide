@@ -66,8 +66,8 @@ Complete these before or by August 31 (the date the incoming FO takes office).
       banking systems, cheque signing
 
 ### Week 1 (August 31 – September 7)
-- [ ] Confirm access to all systems (Zoho Expenses, Zoho Books, Scotia Online,
-      Scotia Connect, Plooto, Payworks, Dropbox, Notion)
+- [ ] Confirm access to all systems (Zoho Expenses, Zoho Books, Vancity,
+      Plooto, Payworks, Dropbox, Notion)
 - [ ] Set up your own Zoho MCP connection in Claude (see
       [How to set it up](../../tools/claude/#how-to-set-it-up))
 - [ ] Receive FO debit card from bank (coordinate with GM)
@@ -87,5 +87,4 @@ Complete these before or by August 31 (the date the incoming FO takes office).
 - [ ] Confirm Plooto/payment platform access with GM
 - [ ] Confirm Payworks access and understand payroll approval cycle
 - [ ] Confirm Vancity migration status with GM
-- [ ] Confirm investment manager transition (RBC Dominion Securities) status
-      with GM
+- [ ] Confirm signatory access to RBC PH&N investment accounts
