@@ -20,8 +20,6 @@ how to request or transfer it, and who the relevant contact is.
 |--------|-----------------|----------------|---------|
 | **Zoho Expenses** | Level-4 approver role | GM adds/removes users in Zoho admin | GM |
 | **Zoho Books** | Read access (request via GM) | GM grants/revokes access | GM |
-| **Scotiabank — Scotia Online** | Online banking credentials | Bank branch or GM coordinates | GM / Scotiabank branch |
-| **Scotiabank — Scotia Connect** | Full access (transfers, EFT, payroll) | GM coordinates with bank | GM / Scotiabank branch |
 | **Vancity Credit Union** | To be confirmed during migration | GM coordinates | GM / Krystina Narayan (Vancity account manager) |
 | **Plooto** | Approval rights for payment runs | GM adds/removes in Plooto admin | GM |
 | **Payworks** | Timesheet / payroll approval | GM adds/removes | GM |
@@ -57,12 +55,6 @@ AutomatedGSSReports server, so access does not pass on automatically.
    server.
 2. Follow [How to set it up](../../tools/claude/#how-to-set-it-up) to create
    your own connection, keep the delete tools off, and install the receipt skill.
-
-### Scotiabank
-Both Scotia Online and Scotia Connect access require the new FO to be added
-at the bank. This typically requires a branch visit or GM-coordinated
-paperwork. Coordinate with the GM **before** August 31 to avoid a gap in
-signing authority.
 
 ### Vancity
 The GSS account manager at Vancity is **Krystina Narayan**
@@ -139,10 +131,8 @@ Changing the authorized signatories on investment accounts requires paperwork
 with the investment manager. Begin this process at least two weeks before the
 outgoing FO leaves office.
 
-{: .note }
-As of the guide's last update, the GSS is transitioning to RBC Dominion
-Securities as investment manager. Verify current account status and signatory
-change procedures with the GM.
+Signatory changes go through **RBC PH&N**; coordinate the paperwork with the
+GM.
 
 ### GSS Email and Internal Platforms
 Confirm with the GM what GSS email address and Microsoft Teams access the FO

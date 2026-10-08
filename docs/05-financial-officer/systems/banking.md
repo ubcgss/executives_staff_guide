@@ -45,16 +45,6 @@ approves, the GM tops up the card.
 
 ## Banking Software
 
-### Scotia Online
-- **Purpose:** Paying bills, checking balances, sending Interac e-transfers,
-  accessing the Scotiabank account.
-- **Who has access:** FO, President, GM.
-
-### Scotia Connect
-- **Purpose:** Transferring and depositing funds, checking balances, accessing
-  payroll solutions, paying bills, sending electronic funds transfers (EFT).
-- **Who has access:** Bookkeeper, Accountant, GM, FO.
-
 ### Vancity Credit Union
 
 {: .note }
