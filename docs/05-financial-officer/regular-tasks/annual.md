@@ -24,10 +24,10 @@ annual task is the budget process, which runs February through May.
 | September | First HFC meeting of new fiscal year |
 | October–November | Monitor budget vs. actuals; trimester 1 ends |
 | December | Capital asset audit (GM, first 2 weeks); HFC reviews audit report |
-| January–February | Trimester 2 ends; Commercial Rent invoice expected from UBC (January); begin budget review and timeline for next year |
-| February | Send budget timeline + line template; all-candidate meeting |
-| March | Meet elected executives re. preliminary goals |
-| April | First and second departmental draft budgets to HFC |
+| January–February | Trimester 2 ends; Commercial Rent invoice expected from UBC (January); December CPI published — compute next year's fees and signal VPSO (January); begin budget review and timeline for next year |
+| February | Send budget timeline + line template; all-candidate meeting; Board of Governors fee notice to VPSO (by ~March 1) |
+| March | Meet elected executives re. preliminary goals; Board of Governors Finance Committee reviews GSS fees (mid-March) |
+| April | First and second departmental draft budgets to HFC; confirm Board-approved fees with Enrolment Services |
 | May | HFC approves final master budget; FO presents at May Council meeting |
 | May 31 | Fiscal year ends; coordinate annual audit |
 
@@ -65,6 +65,74 @@ The timeline below is from HF Policy Appendix II (Financial Budget Guideline).
   Council meeting.
 - **FO presents the final master budget** at the May Council meeting.
 - Master budget is approved at the May Council meeting.
+
+---
+
+## Board of Governors Fee Notice (January–March)
+
+**Why:** Under section 27.1(1) of the *University Act*, UBC's Board of
+Governors collects GSS fees only on **annual notice** from the Society. The
+GSS sends one notice every year, even when fees change only with CPI. If the
+notice is late, Enrolment Services applies its own default (Canadian CPI,
+December–December), and the GSS figures must wait for a later Board meeting
+and be recalculated after students have already been charged.
+
+**Who to contact:** The **Office of the Vice-President, Students (VPSO)** is
+the contact for anything to do with fees and the Board. Current contacts:
+Samantha Reid, Associate Vice-President, Students (samantha.reid@ubc.ca),
+who takes the notice to the Board; Treslyn Sundher, Executive Assistant
+(vps.admin@ubc.ca), for scheduling. Enrolment Services (Cicy Guimond,
+Associate Director, Student Financial Management — cicy.guimond@ubc.ca) sets
+up the fees in Workday.
+
+**Deadline:** Fees go to the Board's **Finance Committee in mid-March** and
+the full Board at the end of March. VPSO needs the materials **two weeks
+before the committee meeting**, so in practice **by about March 1**. Confirm
+the exact committee date with VPSO in January.
+
+1. **Compute next year's fees (late January).** Once Statistics Canada
+   publishes December CPI (mid-to-late January), index each fee by the
+   **calendar-year (December–December) CPI**. The fiscal-year CPI used for
+   internal indexing comes out in April, which is after the deadline. Round
+   each fee so it **divides evenly by 3**: UBC collects it in three
+   instalments, and any remainder is lost (e.g. $7.93 is collected as
+   $2.64 × 3 = $7.92).
+2. **Signal VPSO early (January).** Email VPSO with the expected submission
+   date. If a referendum or bylaw change will **change** a fee or who pays it,
+   flag it now. Members must approve fee changes before the notice goes out,
+   and the AGM (usually the third week of March) is too late for the March
+   Board, so schedule fee referenda for results to be ratified by
+   mid-February.
+3. **Draft the notice.** Start from the template in the
+   [Board of Governor (BoG) Fee Notices folder](https://ubcgss.sharepoint.com/:f:/r/sites/HouseFinanceCommittee/Shared%20Documents/Compliance/Board%20of%20Governor%20(BoG)%20Fee%20Notices?d=w52196f22d778486e9e70a36f0453d8f5&csf=1&web=1&e=i2acqo)
+   (House Finance Committee Teams → Compliance). Address it to the Board of
+   Governors Secretariat and include:
+   - a fee table (prior year, new year, change) for the Membership, Capital
+     Improvement, and Financial Aid fees;
+   - the CPI used and the resulting percentage increase;
+   - any changes to membership or fees, with their authority (referendum
+     results, AGM minutes, bylaw text);
+   - a statement that the audited financial statements are available to
+     members.
+4. **Sign and send (by about March 1).** The FO signs; the President may
+   co-sign. Email the PDF and its attachments to VPSO, and CC the
+   Vice-President, Students and Enrolment Services (Associate Registrar &
+   Director of Finance; Associate Director, Student Financial Management).
+5. **Track approval.** After the March Board meeting, Enrolment Services
+   confirms the approved rates. Check them against the notice, and settle any
+   questions about how fees are split or prorated by program (e.g.
+   dual-degree students).
+6. **File it.** Save the signed notice, its attachments, and the approval
+   email in the
+   [Board of Governor (BoG) Fee Notices folder](https://ubcgss.sharepoint.com/:f:/r/sites/HouseFinanceCommittee/Shared%20Documents/Compliance/Board%20of%20Governor%20(BoG)%20Fee%20Notices?d=w52196f22d778486e9e70a36f0453d8f5&csf=1&web=1&e=i2acqo).
+   Update the student-fee revenue lines in the budget; Enrolment Services can
+   provide the expected remittance for each term.
+
+{: .warning }
+If the notice misses the March Board, the next Board meeting that can approve
+fees may not be until **September**, after Winter Term 1 fees are charged.
+Tell VPSO and Enrolment Services right away, confirm which rate Enrolment
+Services will apply in the meantime, and notify the HFC.
 
 ---
 
