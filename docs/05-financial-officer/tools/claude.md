@@ -72,7 +72,7 @@ action items, owners, and deadlines, or tell you what changed on a topic since
 the last meeting. In `kip`, a daily routine refreshes an issue tracker and
 briefing (overdue, upcoming, and watch items) from these Notion records. It
 also helps keep the Notion work log current for the
-[monthly FO work update](../../regular-tasks/monthly/#monthly-fo-work-updates).
+[monthly FO work update](../../regular-tasks/monthly/#monthly-council-presentation-and-reporting).
 
 > *"Go through my Notion meeting notes from the last two weeks and list every
 > action item assigned to the FO, with its deadline and source meeting."*
