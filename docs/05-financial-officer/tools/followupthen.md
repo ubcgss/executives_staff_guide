@@ -27,7 +27,7 @@ The reminder arrives as an email with the original message attached.
 ## FO use case examples
 
 - **Contract negotiations** — BCC a future date when a vendor contract is up for renegotiation or renewal.
-- **Pending accounts** — Follow up on outstanding invoices, reimbursements, or cheque requisitions that haven't been confirmed.
+- **Pending accounts** — Follow up on outstanding invoices, or reimbursements that haven't been confirmed.
 - **Banking follow-ups** — Remind yourself to confirm a Plooto transfer cleared or a Vancity document was received.
 
 {: .note }

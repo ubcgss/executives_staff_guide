@@ -20,13 +20,11 @@ You are required to report to Council on the financial situation of the Society
 on a monthly basis. Council meets on the **3rd Thursday of each month**,
 except December where it is the **2nd Thursday**.
 
-**Timeline for each monthly cycle:**
+**Timeline for each monthly cycle** (credit card and Plooto approvals run on
+the separate [biweekly cycle](../../regular-tasks/biweekly/)):
 
 | When | Action |
 |------|--------|
-| Beginning of month (+3 business days) | Cardholders upload credit card expenses to Zoho Expenses |
-| 1st working day of month | Department Heads approve credit card expenses in Zoho Expenses |
-| 2nd working day of month | FO reviews and approves credit card expenses |
 | Wednesday before Council week | Accountant delivers financial update report to FO |
 | Monday of Council week (end of day) | FO reviews report and raises any questions |
 | Thursday of Council week (Council meeting) | FO presents financial update to Council |
