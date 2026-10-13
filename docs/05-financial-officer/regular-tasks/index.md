@@ -14,7 +14,7 @@ organized by cadence.
 
 | Cadence | Page | Key deadline |
 |---------|------|-------------|
-| [Biweekly](biweekly/) | Payroll review: time off requests, timesheets | Each pay period |
-| [Monthly](monthly/) | Credit card approvals, financial report, Council presentation | 2nd working day of month |
+| [Biweekly](biweekly/) | Payroll review; credit card and Plooto approvals | Each pay period |
+| [Monthly](monthly/) | Statements, financial report review, Council presentation and reporting | Council meeting (3rd Thursday) |
 | [Quarterly](quarterly/) | Trimester statements, budget vs. actuals | Per trimester end |
 | [Annual](annual/) | Budget process, audit, capital asset review | Feb–May budget; post-May 31 audit |

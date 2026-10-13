@@ -27,8 +27,9 @@ On the **10th of each month**:
 3. Send the statements to the Accountant and General Manager. *Note: This email is already written so you only have to find it, click on ''send again'' and include the updated statements. The subject line starts with "Vancity Statements yyyy-mm" (update to the current month).*
 
 This provides the Accountant with the official statements needed for
-reconciliation. The credit card statement is also the trigger for the
-cardholder expense upload cycle below.
+reconciliation. The credit card statement also starts the cardholder
+expense upload, which you approve in your
+[biweekly review](../biweekly/#credit-card-and-plooto-approvals-zoho-expenses).
 
 ### Investment Statements (Quarterly)
 
@@ -42,69 +43,6 @@ Each quarter:
 
 See [Investment Accounts](../../systems/investment/) for the SIP and the
 annual review.
-
----
-
-## Credit Card Expense Approvals (Zoho Expenses)
-
-GSS corporate credit cards are held by the General Manager ($10,000 limit),
-Events Manager ($10,000 limit), and Administrative Assistant ($10,000 limit).
-
-At the **beginning of each month**, within 3 business days of receiving the
-account statement, cardholders upload their credit card expenses to Zoho
-Expenses with supporting documentation.
-
-**Approval timeline:**
-
-| Step | Who | Deadline |
-|------|-----|----------|
-| 1. Cardholder uploads expenses | Cardholder | Within 3 business days of statement receipt |
-| 2. Departmental Head reviews and approves | Department Head | **1st working day of the following month** |
-| 3. FO reviews budget code, amount, purpose | FO | **2nd working day of the following month** |
-| 4. Bookkeeper enters approved expenses into Zoho Books | Bookkeeper | After FO approval |
-
-As FO, your job in step 3 is to review each transaction for:
-- Correct budget code (budget line)
-- Reasonable amount relative to budget
-- Business purpose documented
-
-If a transaction is unusual, reconcile directly with the cardholder. Suspicious
-transactions may be reported to the HFC. You may approve the expense or seek
-clarification by requesting relevant supporting documentation.
-
-{: .note }
-Cardholders who do not reconcile will be sent a reminder. Continued failure
-may result in loss of access to the corporate credit card.
-
----
-
-## Cheque Requisitions and Plooto Approvals
-
-Cheque requisitions are used for reimbursements and vendor payments where the
-GSS does not have a regular payment arrangement.
-
-**Cheque requisition fields:**
-1. Date of request
-2. Payable to (payee name and mailing address if applicable)
-3. Purpose of payment
-4. Cheque amount requested
-5. Requested by (name/position)
-6. Budget line
-7. Department Head approval (signature + date)
-8. FO approval (signature + date)
-
-**Paper process:** Department Head approves → FO approves → GM processes the
-cheque → two signing officers sign (any two of: President / FO / VP UAA) →
-GM distributes to payee.
-
-**Online (Plooto) process:** Expenses are entered into Zoho Expenses by the
-GM or relevant employee with supporting documents → President and VP UAA
-approve → FO approves → GM executes the e-transfer via Plooto → Bookkeeper
-enters into Zoho Books in the first week of the subsequent month.
-
-{: .note }
-As of the guide's last update, the Plooto platform is subject to change in
-2024–25. Verify the current payment platform with the GM.
 
 ---
 
@@ -129,19 +67,21 @@ advise you and you will agree on a revised timing together.
 
 ---
 
-## Council Presentation
+## Monthly Council Presentation and Reporting
 
 Bylaw 8.5.6(a) requires the FO to report to Council on the financial situation
-of the Society on a monthly basis. In practice, this means preparing a brief
-presentation with two components:
+of the Society on a monthly basis. Each Council meeting, you prepare two
+things: a brief financial presentation and your work update.
 
-**1. Budget vs. Actuals**
+### 1. Financial Presentation
+
+**1.1 Budget vs. Actuals**
 
 Last month's and year-to-date actuals, summarized by department and budget
 category. This section is generated automatically from the prior month's data,
 so no manual preparation is required beyond reviewing the output for accuracy.
 
-**2. Financial Developments**
+**1.2 Financial Developments**
 
 A brief update on relevant financial matters since the last Council meeting,
 which may include:
@@ -162,19 +102,18 @@ Purpose:      To keep Council informed of the Society's financial position, as
               required under Bylaw 8.5.6(a).
 ```
 
----
-
-## Monthly FO Work Updates
+### 2. FO Work Update
 
 All executives submit individual work updates to Council each month. For the
 FO, this process is largely automated: provided you keep your work log and
-meeting notes current in Notion, the data is pulled into a
-[Google Sheet](https://docs.google.com/spreadsheets/d/1L1m10y5jLQjseSUQkC9rjXJG1Km4j2X1SBZsDNthWVI/edit?usp=sharing)
-and formatted for Council automatically.
+meeting notes current in Notion, the data is pulled into a Google Sheet and
+formatted for Council automatically.
 
 Select and copy the relevant entries into the agenda before each meeting:
 - **Council agenda:** the past four weeks of updates
+  ([four-week tab](https://docs.google.com/spreadsheets/d/1L1m10y5jLQjseSUQkC9rjXJG1Km4j2X1SBZsDNthWVI/edit?gid=1240902386#gid=1240902386))
 - **HFC agenda:** the past two weeks of updates
+  ([two-week tab](https://docs.google.com/spreadsheets/d/1L1m10y5jLQjseSUQkC9rjXJG1Km4j2X1SBZsDNthWVI/edit?gid=1067922621#gid=1067922621))
 
 ---
 
