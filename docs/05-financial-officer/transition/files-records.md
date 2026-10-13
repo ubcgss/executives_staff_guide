@@ -70,6 +70,6 @@ Financial Officer:
 | HFC packages and minutes | Archive in Dropbox; flag any outstanding action items |
 | Signed budget (current year) | Hand off actively with briefing |
 | Ongoing vendor/supplier correspondence | Hand off actively; brief incoming FO |
-| Pending cheque requisitions | Resolve before handoff or flag as outstanding |
+| Pending Zoho Expenses / Plooto approvals | Resolve before handoff or flag as outstanding |
 | Access credentials / login info | Do not store passwords in files — coordinate transfers through system admins (GM) |
 | Physical files / office materials | Remove personal items; organize and label remaining files; clean office space per EOC direction |

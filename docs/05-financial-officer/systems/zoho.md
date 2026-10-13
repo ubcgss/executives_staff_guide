@@ -28,10 +28,10 @@ The approval chain is **four levels**:
 
 | Level | Approver | Role |
 |-------|----------|------|
-| 1 | Department Head | Reviews departmental expense; approves by **1st working day** of month |
+| 1 | Department Head | Reviews and approves departmental expenses before the FO's biweekly review |
 | 2 | President | Reviews and approves |
 | 3 | VP UAA | Reviews and approves |
-| 4 | **Financial Officer (you)** | Final review of budget code, amount, purpose |
+| 4 | **Financial Officer (you)** | Final review of budget code, amount, purpose, every two weeks |
 | Post-approval | Bookkeeper | Enters approved expense into Zoho Books |
 
 After FO approval, the Zoho Expense AP entry flows directly to Plooto (for
@@ -46,41 +46,22 @@ payment processing) and is then reflected in Zoho Books.
 
 ---
 
-## Credit Card Expense Process (Monthly)
+## Credit Card Expense Process
 
 **Cardholder responsibilities:**
-1. At the beginning of each month, fill out the credit card expense file and
-   send documentation to Department Heads and the FO through Zoho Expenses.
-2. Retain original receipts for all transactions and submit them with the
-   monthly statement.
+1. Within 3 business days of receiving the monthly statement, upload credit
+   card expenses with supporting documentation to Zoho Expenses for Department
+   Head and FO approval.
+2. Retain original receipts for all transactions.
 3. Lost or stolen corporate cards must be reported immediately to the
    Accountant, GM, and FO.
 
 **FO supervisory responsibilities:**
 - Ensure all credit card transactions are business-related.
 - Ensure all supporting documentation is provided in Zoho Expenses.
-- Review and verify by the **2nd working day** of the following month.
+- Review and approve pending expenses at the
+  [biweekly review](../../regular-tasks/biweekly/#credit-card-and-plooto-approvals-zoho-expenses).
 - Any unusual transaction must be reconciled with the cardholder immediately.
-
----
-
-## Cheque Requisition Workflow
-
-Cheque requisitions cover reimbursements and vendor payments. The form fields
-are:
-
-1. Date of request
-2. Payable to (with mailing address if the cheque is to be mailed)
-3. Purpose of payment
-4. Cheque amount requested
-5. Requested by (name and position)
-6. Budget line *(critical — incorrect budget lines distort financial reports
-   and the future budget)*
-7. Approval of Department Head (signature + date)
-8. Approval of Financial Officer (signature + date)
-
-After FO approval: GM processes the cheque → two signing officers sign
-(any two of President / FO / VP UAA) → GM distributes.
 
 ---
 

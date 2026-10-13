@@ -29,7 +29,7 @@ Complete these before or by August 31 (the date the incoming FO takes office).
 
 ### Training of Incoming FO (15%)
 - [ ] Introduce incoming FO to key staff: GM, Accountant, Bookkeeper
-- [ ] Walk through day-to-day tasks: credit card approvals, cheque requisitions,
+- [ ] Walk through day-to-day tasks: credit card and Plooto approvals,
       Zoho Expenses workflow, monthly report review
 - [ ] Attend at least 3 HFC meetings jointly with incoming FO
 - [ ] Arrange instruction by the Financial Controller (or Accountant/Bookkeeper)
