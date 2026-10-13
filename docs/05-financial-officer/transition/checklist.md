@@ -50,6 +50,13 @@ Complete these before or by August 31 (the date the incoming FO takes office).
       [Claude and the Zoho MCP](../accounts-access/#claude-and-the-zoho-mcp))
 - [ ] Clean and organize physical office space per EOC direction
 
+### Last Two Weeks (August 17 – 31)
+- [ ] **RBC PH&N handoff** (see [RBC PH&N](../accounts-access/#rbc-phn))
+  - [ ] [Email Fiona Bao](mailto:fiona.bao@rbc.com?subject=UBC%20GSS%20-%20Financial%20Officer%20transition%3A%20RBC%20PH%26N%20online%20access&body=Hi%20Fiona%2C%0D%0A%0D%0AThe%20UBC%20Graduate%20Student%20Society%27s%20Financial%20Officer%20role%20changes%20over%20on%20August%2031.%20The%20incoming%20Financial%20Officer%20is%20%5BNAME%5D%20%28%5BEMAIL%5D%29%2C%20cc%27d%20here.%0D%0A%0D%0ACould%20you%20confirm%20whether%20they%20need%20a%20new%20RBC%20PH%26N%20online%20login%2C%20or%20whether%20access%20can%20be%20transferred%3F%20Please%20also%20let%20us%20know%20what%20paperwork%20is%20needed%20to%20update%20the%20authorized%20signatories%20on%20the%20GSS%20accounts.%0D%0A%0D%0AThank%20you%2C%0D%0A%5BYOUR%20NAME%5D%0D%0AFinancial%20Officer%2C%20UBC%20Graduate%20Student%20Society)
+        (pre-filled draft; fill in the placeholders and cc the incoming FO) to
+        confirm whether the incoming FO needs a new login
+  - [ ] Coordinate the signatory change paperwork with RBC PH&N
+
 ### Position Reviews (15%)
 - [ ] Participate in reviews for any position that the incoming FO requests
 
@@ -73,7 +80,12 @@ Complete these before or by August 31 (the date the incoming FO takes office).
 - [ ] Receive FO debit card from bank (coordinate with GM)
 - [ ] Confirm signing authority has been updated at the bank (two of three:
       President / FO / VP UAA)
-- [ ] Obtain investment account signatory update paperwork from GM
+- [ ] **RBC PH&N**
+  - [ ] Log in at the [RBC PH&N sign-in page](https://www1.royalbank.com/cgi-bin/rbaccess/rbunxcgi?F6=1&F7=IB&F21=IB&F22=IB&REQUEST=ClientSignin&IDP=IVC&LANGUAGE=ENGLISH&SYSTEM=PHN)
+        and confirm you can see every fund account
+  - [ ] Confirm with RBC PH&N that your signatory status is registered
+  - [ ] Confirm quarterly statements reach you (see
+        [Investment Statements](../../regular-tasks/monthly/#investment-statements-quarterly))
 - [ ] Review the approved annual budget for the current fiscal year
 - [ ] Attend first HFC meeting as FO
 
@@ -87,4 +99,3 @@ Complete these before or by August 31 (the date the incoming FO takes office).
 - [ ] Confirm Plooto/payment platform access with GM
 - [ ] Confirm Payworks access and understand payroll approval cycle
 - [ ] Confirm Vancity migration status with GM
-- [ ] Confirm signatory access to RBC PH&N investment accounts

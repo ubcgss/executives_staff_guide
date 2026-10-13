@@ -27,7 +27,7 @@ how to request or transfer it, and who the relevant contact is.
 | **Notion** | Access to GSS workspace | GM or President invites | GM |
 | **Spark** | `finance@gss.ubc.ca` mailbox | GM transfers mailbox access; incoming FO adds it to Spark | GM |
 | **Claude** | GSS Claude account; Zoho MCP and Notion connectors | Outgoing FO disables their Zoho MCP access; incoming FO sets up their own ([How to set it up](../../tools/claude/#how-to-set-it-up)) | GM |
-| **Investment accounts** | Authorized signatory status | Requires bank/investment manager paperwork | GM + investment manager |
+| **RBC PH&N** (investment manager) | Online access to the fund accounts; authorized signatory status | Outgoing FO contacts Fiona Bao to confirm whether a new login is needed; signatory change needs RBC PH&N paperwork | FO / Fiona Bao (RBC PH&N) |
 | **GSS debit card** | FO debit card linked to operating account | Outgoing FO returns card; incoming FO issued new card | GM / bank branch |
 
 ---
@@ -126,13 +126,21 @@ request to add additional card holders. For this you can contact the Vancity
 line or the GSS account manager (see [Vancity](#vancity)), and this can be
 done online.
 
-### Investment Accounts
-Changing the authorized signatories on investment accounts requires paperwork
-with the investment manager. Begin this process at least two weeks before the
-outgoing FO leaves office.
+### RBC PH&N
+GSS investments are managed by **RBC PH&N**, with one account per fund (see
+[Investment Accounts](../../systems/investment/)). The GSS contact at RBC PH&N
+is **Fiona Bao** (fiona.bao@rbc.com). Log in at the
+[RBC PH&N sign-in page](https://www1.royalbank.com/cgi-bin/rbaccess/rbunxcgi?F6=1&F7=IB&F21=IB&F22=IB&REQUEST=ClientSignin&IDP=IVC&LANGUAGE=ENGLISH&SYSTEM=PHN).
 
-Signatory changes go through **RBC PH&N**; coordinate the paperwork with the
-GM.
+**Online access.** On transition, the outgoing FO contacts Fiona Bao to
+confirm whether the incoming FO needs a new login. No 2FA is active on the
+account.
+
+**Signatories.** Changing the authorized signatories requires paperwork with
+RBC PH&N. The outgoing FO coordinates it, starting at least two weeks before
+leaving office.
+
+The step-by-step handoff is in the [Checklists](../checklist/).
 
 ### GSS Email and Internal Platforms
 Confirm with the GM what GSS email address and Microsoft Teams access the FO
