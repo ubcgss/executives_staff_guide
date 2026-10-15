@@ -28,6 +28,7 @@ how to request or transfer it, and who the relevant contact is.
 | **Spark** | `finance@gss.ubc.ca` mailbox | GM transfers mailbox access; incoming FO adds it to Spark | GM |
 | **Claude** | GSS Claude account; Zoho MCP and Notion connectors | Outgoing FO disables their Zoho MCP access; incoming FO sets up their own ([How to set it up](../../tools/claude/#how-to-set-it-up)) | GM |
 | **RBC PH&N** (investment manager) | Online access to the fund accounts; authorized signatory status | Outgoing FO contacts Fiona Bao to confirm whether a new login is needed; signatory change needs RBC PH&N paperwork | FO / Fiona Bao (RBC PH&N) |
+| **CRA** | Access to the CRA account through the FO's personal provincial partner login | Outgoing FO arranges the account transfer with the incoming FO | Outgoing FO / Accountant |
 | **GSS debit card** | FO debit card linked to operating account | Outgoing FO returns card; incoming FO issued new card | GM / bank branch |
 
 ---
@@ -141,6 +142,17 @@ RBC PH&N. The outgoing FO coordinates it, starting at least two weeks before
 leaving office.
 
 The step-by-step handoff is in the [Checklists](../checklist/).
+
+### CRA
+CRA notices are downloaded and sent to the Accountant monthly (see
+[Download and Send CRA Notices to Accountant](../../regular-tasks/monthly/#download-and-send-cra-notices-to-accountant)).
+Access is linked to the FO's **personal** CRA login, which is reached through
+the provincial partner app, so it does not pass to the next FO automatically.
+
+**On transition.** The outgoing FO should arrange with the incoming FO the
+transfer of the CRA account, so the incoming FO inherits the authorization and
+can sign in with their own provincial partner app. The step-by-step handoff is
+in the [Checklists](../checklist/).
 
 ### GSS Email and Internal Platforms
 Confirm with the GM what GSS email address and Microsoft Teams access the FO

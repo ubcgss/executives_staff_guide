@@ -94,6 +94,19 @@ emails that need no further action from you.
 
 ---
 
+## Pre-drafted Email Links
+
+Some guide pages link to a pre-filled email (for example the monthly
+[CRA notices email](../../regular-tasks/monthly/#download-and-send-cra-notices-to-accountant)).
+These links start with `readdle-spark://compose`, so they open a new message
+in Spark even when another app, such as Mail, is the Mac's default for
+`mailto:` links. Spark sends from its default account, so keep
+`finance@gss.ubc.ca` as the default sending account, and check the From line
+before sending. The links fill in the recipient, subject, and body only;
+attachments are added by hand.
+
+---
+
 ## Using Spark with Claude
 
 Claude can read the finance inbox through Spark to summarize long threads,
