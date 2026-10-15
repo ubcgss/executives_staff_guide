@@ -46,6 +46,24 @@ annual review.
 
 ---
 
+## Download and Send CRA Notices to Accountant
+
+Once a month, check the Canada Revenue Agency (CRA) account for new notices,
+such as assessments, balance owing or arrears notices, and requests for
+information.
+
+1. Sign in through the CRA [provincial partner sign-in](https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/provincial-partner.html).
+2. Download unread notices and save them to the [CRA Notices folder](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/CRA%20Tax%20Documents/CRA%20Notices?d=wb10027664bf447e68b1ff07b67197407&csf=1&web=1&e=M9thrj) in the Finance and Accounting SharePoint.
+3. [Email the notices to the Accountant](readdle-spark://compose?recipient=accounting%40gss.ubc.ca&subject=CRA%20Notices%20yyyy-mm&body=Hi%2C%0A%0AAttached%20are%20the%20new%20CRA%20notices%20for%20%5BMONTH%20YEAR%5D%2C%20also%20saved%20in%20the%20CRA%20Notices%20folder%3A%20https%3A%2F%2Fubcgss.sharepoint.com%2F%3Af%3A%2Fr%2Fsites%2FFinanceandAccounting%2FShared%2520Documents%2FGeneral%2FCRA%2520Tax%2520Documents%2FCRA%2520Notices%3Fd%3Dwb10027664bf447e68b1ff07b67197407%26csf%3D1%26web%3D1%26e%3DM9thrj%0A%0AThank%20you%2C%0A%5BYOUR%20NAME%5D).
+   The draft opens in [Spark](../../tools/spark/#pre-drafted-email-links) from
+   `finance@gss.ubc.ca`; fill in the placeholders and the month in the subject
+   line, then attach the new notices and link to the folder before sending.
+
+Do this when you download the statements on the **10th** so both checks happen
+on the same day. If there are no new notices, no email is needed.
+
+---
+
 ## Financial Report Review
 
 The monthly financial update is prepared by the Bookkeeper and Accountant

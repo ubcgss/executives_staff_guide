@@ -56,6 +56,11 @@ Complete these before or by August 31 (the date the incoming FO takes office).
         (pre-filled draft; fill in the placeholders and cc the incoming FO) to
         confirm whether the incoming FO needs a new login
   - [ ] Coordinate the signatory change paperwork with RBC PH&N
+- [ ] **CRA handoff** (see [CRA](../accounts-access/#cra))
+  - [ ] Arrange with the incoming FO the transfer of the CRA account (linked
+        to your personal CRA login), so the incoming FO inherits the
+        authorization
+  - [ ] Send the latest CRA notices to the Accountant before handing over
 
 ### Position Reviews (15%)
 - [ ] Participate in reviews for any position that the incoming FO requests
@@ -86,6 +91,11 @@ Complete these before or by August 31 (the date the incoming FO takes office).
   - [ ] Confirm with RBC PH&N that your signatory status is registered
   - [ ] Confirm quarterly statements reach you (see
         [Investment Statements](../../regular-tasks/monthly/#investment-statements-quarterly))
+- [ ] **CRA**
+  - [ ] Sign in through the CRA
+        [provincial partner sign-in](https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/provincial-partner.html)
+        with your own provincial partner app and confirm you can see the GSS
+        account and its notices
 - [ ] Review the approved annual budget for the current fiscal year
 - [ ] Attend first HFC meeting as FO
 
