@@ -16,7 +16,7 @@ system's purpose, FO-specific access, and key workflows.
 |--------|---------|----------------|
 | [Zoho Expenses](zoho/) | Expense approval workflow | Final approver (level 4) |
 | [Zoho Books](zoho/) | Budget and actuals, financial statements | Read / request access |
-| [Banking](banking/) | Vancity, Plooto | Full debit card + online access |
+| [Banking](banking/) | Vancity banking and credit cards, Plooto | Signer online banking + access card |
 | [Payworks](banking/) | Timesheets, semi-monthly payroll | Approval of WL timesheets |
 | [Investments](investment/) | RBC PH&N | Review / signatory |
 

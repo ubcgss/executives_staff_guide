@@ -25,36 +25,50 @@ The GSS maintains five accounts:
 
 ---
 
-## Debit and Credit Cards
+## Vancity Credit Union
 
-**FO debit card:** Grants authority to withdraw and transfer funds on behalf
-of the GSS. Subject to variation based on the bank or credit union.
+All GSS bank accounts and corporate credit cards are held with Vancity Credit
+Union. Banking and credit cards are **two separate systems**: separate websites,
+logins, and support lines.
 
-**President debit card:** Information and verification purposes only. Does not
-grant withdrawal/transfer authority.
+**GSS account manager:** Krystina Narayan — Krystina_Narayan@vancity.com
+(Pinetree branch). She covers both banking and credit cards.
 
-**Corporate credit cards** ($10,000 limit each):
-- General Manager
-- Events Manager
-- Administrative Assistant
+| | Banking | Credit cards |
+|---|---------|--------------|
+| **Website** | [Vancity online banking](https://my.vancity.com/banking/home) | [Vancity credit card online banking](https://creditcards.vancity.com/) |
+| **Used for** | Account balances, transfers, e-transfer approvals, bank statements, **paying the credit card balances** | Card activity, card statements, cardholder and limit management |
+| **Support line** | 604-648-5180 (Monday to Friday, 9 am to 5 pm) | 604-676-8431 (business cards) |
 
-Credit card top-ups are subject to budget approval by the FO. Once the FO
-approves, the GM tops up the card.
+### Online Banking and Access Cards
 
----
+Signers (FO, President, VP UAA) each hold a Vancity access card and their own
+online banking login, which they use to approve transfers and payments. The GSS
+no longer issues debit cards. See
+[Changing Signing Authority](../../transition/accounts-access/#changing-signing-authority)
+for how to update signers at turnover.
 
-## Banking Software
+### Corporate Credit Cards
 
-### Vancity Credit Union
+Each card has a $10,000 limit:
 
-{: .note }
-As of the guide's last update, the GSS is in the process of migrating partial
-operating cash to Vancity Credit Union as part of a divestment and climate
-action initiative. Once the financial transaction and system seem suitable for
-continued use, the GSS plans to move all operating accounts to Vancity.
-Verify current status with the GM before acting on any Vancity account.
+| Cardholder | Used by |
+|------------|---------|
+| General Manager | GM |
+| Events Manager | Events Manager |
+| Administrative Assistant | Administrative Assistant |
+| Financial Officer | FSI Coordinator |
 
-**GSS account manager:** Krystina Narayan — Krystina_Narayan@vancity.com (Pinetree branch)
+- **Paying the cards:** the card balances are paid from the GSS bank account
+  through the **banking** site, not the credit card site.
+- **Receipts:** cardholders submit every charge in Zoho Expense.
+- **Statements:** the FO downloads card statements from the credit card site and
+  bank statements from the banking site every month (see
+  [Monthly tasks](../../regular-tasks/monthly/)).
+- **Lost or stolen card, limit changes, adding or removing cardholders:** call
+  the business credit card line (604-676-8431) or contact the account manager.
+  See [Credit Cards](../../transition/accounts-access/#credit-cards) for the
+  turnover process.
 
 ### Payment Method Rules
 
@@ -73,10 +87,6 @@ Plooto is the GSS's online payment software platform. After expenses are
 approved in Zoho Expenses, the GM executes e-transfers through Plooto. The
 Bookkeeper enters payment notifications and confirmations into the accounting
 system in the first week of the subsequent month.
-
-{: .note }
-As of the guide's last update, Plooto is subject to change in 2024–25.
-Verify the current payment platform with the GM.
 
 ---
 
