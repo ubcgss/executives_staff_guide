@@ -43,7 +43,7 @@ Complete these before or by August 31 (the date the incoming FO takes office).
 - [ ] Organize all Dropbox folders: label, clean up, archive completed items
 - [ ] Ensure all working documents are in Dropbox (not only on local drives)
 - [ ] Remove all personal belongings from office
-- [ ] Return GSS equipment (debit card, office keys, etc.) to GM
+- [ ] Return GSS equipment (Vancity access card, office keys, etc.) to GM
 - [ ] Ensure all system access is transferred (see [System Access](accounts-access/))
 - [ ] Disable your Zoho MCP access: remove the connector from your Claude
       account and revoke your connection on the AutomatedGSSReports server (see
@@ -78,11 +78,11 @@ Complete these before or by August 31 (the date the incoming FO takes office).
       banking systems, cheque signing
 
 ### Week 1 (August 31 – September 7)
-- [ ] Confirm access to all systems (Zoho Expenses, Zoho Books, Vancity,
-      Plooto, Payworks, Dropbox, Notion)
+- [ ] Confirm access to all systems (Zoho Expenses, Zoho Books, Vancity banking,
+      Vancity credit cards, Plooto, Payworks, Dropbox, Notion)
 - [ ] Set up your own Zoho MCP connection in Claude (see
       [How to set it up](../../tools/claude/#how-to-set-it-up))
-- [ ] Receive FO debit card from bank (coordinate with GM)
+- [ ] Receive Vancity access card from the branch (coordinate with GM)
 - [ ] Confirm signing authority has been updated at the bank (two of three:
       President / FO / VP UAA)
 - [ ] **RBC PH&N**
@@ -108,4 +108,3 @@ Complete these before or by August 31 (the date the incoming FO takes office).
 - [ ] Read and understand the Statement of Investment Policy
 - [ ] Confirm Plooto/payment platform access with GM
 - [ ] Confirm Payworks access and understand payroll approval cycle
-- [ ] Confirm Vancity migration status with GM

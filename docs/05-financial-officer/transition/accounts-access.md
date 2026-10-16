@@ -20,7 +20,8 @@ how to request or transfer it, and who the relevant contact is.
 |--------|-----------------|----------------|---------|
 | **Zoho Expenses** | Level-4 approver role | GM adds/removes users in Zoho admin | GM |
 | **Zoho Books** | Read access (request via GM) | GM grants/revokes access | GM |
-| **Vancity Credit Union** | To be confirmed during migration | GM coordinates | GM / Krystina Narayan (Vancity account manager) |
+| **Vancity banking** | Signer with online banking login and access card | Change of signer at the branch (see [Changing Signing Authority](#changing-signing-authority)) | GM / Krystina Narayan (Vancity account manager) |
+| **Vancity credit cards** | Credit card site administrator (separate login from banking) | Update the Visa administrator (see [Credit Cards](#credit-cards)) | Vancity business card line / Krystina Narayan |
 | **Plooto** | Approval rights for payment runs | GM adds/removes in Plooto admin | GM |
 | **Payworks** | Timesheet / payroll approval | GM adds/removes | GM |
 | **Dropbox** | Access to Work/UBC GSS/ folder tree | GM or President invites | GM |
@@ -29,7 +30,7 @@ how to request or transfer it, and who the relevant contact is.
 | **Claude** | GSS Claude account; Zoho MCP and Notion connectors | Outgoing FO disables their Zoho MCP access; incoming FO sets up their own ([How to set it up](../../tools/claude/#how-to-set-it-up)) | GM |
 | **RBC PH&N** (investment manager) | Online access to the fund accounts; authorized signatory status | Outgoing FO contacts Fiona Bao to confirm whether a new login is needed; signatory change needs RBC PH&N paperwork | FO / Fiona Bao (RBC PH&N) |
 | **CRA** | Access to the CRA account through the FO's personal provincial partner login | Outgoing FO arranges the account transfer with the incoming FO | Outgoing FO / Accountant |
-| **GSS debit card** | FO debit card linked to operating account | Outgoing FO returns card; incoming FO issued new card | GM / bank branch |
+| **Vancity access card** | FO access card for online banking | Outgoing FO returns or destroys card; incoming FO issued new card at the branch | GM / Vancity branch |
 
 ---
 
@@ -63,12 +64,17 @@ The GSS account manager at Vancity is **Krystina Narayan**
 changes, adding or removing credit card holders, card limits, and general
 account questions. The step-by-step process for signers and cards is under
 [Changing Signing Authority](#changing-signing-authority); see
-[Banking](../../systems/banking/) for an overview of the GSS accounts.
+[Banking](../../systems/banking/#vancity-credit-union) for an overview of the
+GSS accounts.
 
-### Debit Card
-The FO debit card grants authority to withdraw and transfer funds. The
-outgoing FO must return the card; the incoming FO is issued a new card.
-Subject to variation based on the bank or credit union in use at the time.
+Banking and credit cards have separate support lines:
+- **Business banking:** 604-648-5180 (Monday to Friday, 9 am to 5 pm)
+- **Business credit cards:** 604-676-8431
+
+### Access Card
+Each signer holds a Vancity access card for online banking. The GSS no longer
+issues debit cards. The outgoing FO returns or destroys their card; the
+incoming FO is issued a new one at the branch.
 
 ### Changing Signing Authority
 
@@ -122,10 +128,13 @@ begins on May 1. Work backwards from that date:
 
 #### Credit Cards
 
-Update the visa administrator. If you need additional cards, you can also
-request to add additional card holders. For this you can contact the Vancity
-line or the GSS account manager (see [Vancity](#vancity)), and this can be
-done online.
+Credit cards are managed on the
+[Vancity credit card site](https://creditcards.vancity.com/), which is
+separate from online banking. Update the Visa administrator. If you need
+additional cards, you can also request to add additional card holders. For
+this, call the business credit card line (604-676-8431) or contact the GSS
+account manager (see [Vancity](#vancity)); this can be done online. Cancel or
+reassign the card of any outgoing cardholder.
 
 ### RBC PH&N
 GSS investments are managed by **RBC PH&N**, with one account per fund (see

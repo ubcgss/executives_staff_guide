@@ -77,9 +77,9 @@ All cheques require two of the three signing officers to approve:
 - Financial Officer
 - Vice-President, University and Academic Affairs (VP UAA)
 
-The FO's debit card grants authority to withdraw and transfer funds on behalf
-of the GSS. The President's debit card is for information and verification
-purposes only.
+Each signing officer holds a Vancity access card and their own online banking
+login, which they use to approve transfers and payments (see
+[Banking](../systems/banking/#online-banking-and-access-cards)).
 
 During the FO's vacation, the VP UAA takes over FO responsibilities. If both
 the President and VP UAA are away simultaneously, the GSS financial process
