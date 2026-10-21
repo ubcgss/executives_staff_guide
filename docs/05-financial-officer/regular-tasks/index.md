@@ -17,4 +17,4 @@ organized by cadence.
 | [Biweekly](biweekly/) | Payroll review; credit card and Plooto approvals | Each pay period |
 | [Monthly](monthly/) | Statements, financial report review, Council presentation and reporting | Council meeting (3rd Thursday) |
 | [Quarterly](quarterly/) | Trimester statements, budget vs. actuals | Per trimester end |
-| [Annual](annual/) | Budget process, audit, capital asset review | Feb–May budget; post-May 31 audit |
+| [Annual](annual/) | Budget process, audit, capital asset review, Zoho report rollover | Feb–May budget; post-May 31 audit; June/September report rollover |

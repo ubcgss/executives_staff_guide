@@ -18,10 +18,10 @@ annual task is the budget process, which runs February through May.
 
 | Month | Key task |
 |-------|---------|
-| June | New fiscal year begins; confirm budget is distributed |
+| June | New fiscal year begins; confirm budget is distributed; roll over GSFA and AO Funding scheduled Zoho reports to the new FY |
 | July | FO election at Council meeting; Services Levy invoice expected from UBC |
 | August | Outgoing FO transitional report due; incoming FO takes office (Aug 31) |
-| September | First HFC meeting of new fiscal year |
+| September | First HFC meeting of new fiscal year; roll over FSI scheduled Zoho reports to the new AY |
 | October–November | Monitor budget vs. actuals; trimester 1 ends |
 | December | Capital asset audit (GM, first 2 weeks); HFC reviews audit report |
 | January–February | Trimester 2 ends; Commercial Rent invoice expected from UBC (January); December CPI published — compute next year's fees and signal VPSO (January); begin budget review and timeline for next year |
@@ -133,6 +133,52 @@ If the notice misses the March Board, the next Board meeting that can approve
 fees may not be until **September**, after Winter Term 1 fees are charged.
 Tell VPSO and Enrolment Services right away, confirm which rate Enrolment
 Services will apply in the meantime, and notify the HFC.
+
+---
+
+## Roll Over Scheduled Zoho Reports (June and September)
+
+**Why:** The monthly project reports in Zoho Books (GSFA, AO Funding, and the
+FSI programs such as Baby Hamper) are each filtered to **one year's project**
+and date range. They are not updated automatically. If nobody rolls them over,
+the report emailed on the 8th keeps showing last year's project, and the new
+year's spending never appears in it.
+
+**When:** Each report rolls over at the start of its own funding cycle (see
+[Project Reports](https://ubcgss.github.io/finance_accounting_guide/zoho/project-reports/)
+in the Finance and Accounting Guide).
+
+| Report | Cycle | New date range | Roll over by |
+|--------|-------|----------------|--------------|
+| GSFA | Fiscal year (FY) | June 1 – May 31 | Early June, before the June 8 report |
+| AO Funding | Fiscal year (FY) | June 1 – May 31 | Early June, before the June 8 report |
+| FSI programs (e.g. Baby Hamper) | Academic year (AY) | September 1 – August 31 | Early September, before the September 8 report |
+
+1. **Confirm the new projects exist.** In Zoho Expense (Settings → Projects),
+   check that each program has a project for the new year, named by the
+   convention `[Project Type] [YY-YY] [FY|AY]` (e.g. `AO Funding 26-27 FY`,
+   `Baby Hamper Project 26-27 AY`). Create any that are missing, under the
+   same customer as previous years. See
+   [Zoho Projects](https://ubcgss.github.io/finance_accounting_guide/zoho/projects/).
+2. **Update each scheduled report.** In Zoho Books → Reports → Scheduled
+   Reports, open each report's custom report and edit:
+   - the **Project Name** filter, to the new year's project;
+   - the **date range**, to the new cycle (see the table above);
+   - the **report title**, to the new project name (e.g. `AO Funding 25-26 FY`
+     becomes `AO Funding 26-27 FY`).
+3. **Check the schedule and recipients.** Keep delivery on the **8th of every
+   month**. Update the email recipients so they match the current executives
+   and staff, especially after the August 31 transition.
+4. **Verify.** Run each report once and confirm it shows only transactions
+   tagged to the new project. It may be empty early in the cycle. Before you
+   edit, confirm the last report for the old year was sent, or save a copy of
+   it.
+
+{: .note }
+A report only shows expenses tagged to its project. Expenses dated in the new
+cycle must be tagged to the **new** year's project, never last year's.
+Otherwise they are left out of the new report and counted against the old
+year's funding.
 
 ---
 
