@@ -127,6 +127,35 @@ or coded to the wrong budget line.
 **You still check:** each flagged item in Zoho before asking the Bookkeeper to
 correct anything.
 
+### 8. Drafting and reviewing policy proposals
+
+The
+[`draft-gss-policy`](https://github.com/ubcgss/kip/tree/main/.claude/skills/draft-gss-policy)
+skill writes HFC proposal memos in a standard structure: context and problem,
+objective, existing policy (quoted), and the proposed change, followed by
+implementation and a motion when they're needed. The proposed text follows the
+format of the document it changes, so a change to Accounting and Procedures reads
+like that manual and a new appendix follows the House-Finance Policy appendix
+layout. The memo is saved as a Word file on the GSS document template, named
+`YYYY-MM-DD <Title>.docx`. The skill can also check an existing draft for
+duplicate or skipped clause numbers, stale cross-references, and leftover
+placeholders.
+
+> *"Draft a procedure proposal adding a monthly check that the CPIF portion of
+> each UBC fee remittance reached the PH&N account."*
+
+> *"Review the Restricted Funds policy draft in the HFC Tasks folder before I
+> send it to the committee."*
+
+In Claude Code, the skill is already there when you work in the `kip` repo. To
+use it in the Claude app, install it the same way as the receipt skill (see
+[How to set it up](#how-to-set-it-up)): zip `.claude/skills/draft-gss-policy/`
+and upload it under **Customize → Skills**.
+
+**You still check:** the quoted existing policy against the current manual, and
+every proposed clause. The HFC and the Code and Policy Committee own the final
+wording.
+
 ---
 
 ## Zoho MCP
