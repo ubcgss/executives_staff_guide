@@ -289,8 +289,10 @@ It usually gets these wrong, so Claude always checks them:
 > - **The connector cannot upload files.** Receipts go into Zoho through
 >   autoscan (web upload or mobile app), never through Claude.
 > - **It cannot read the category or tax lists** (authorization error). The
->   skill carries its own copy of these. Update it when the chart of accounts,
->   taxes or cards change.
+>   skill reads the budget lines from the finance guide's published list
+>   ([`budget_lines.json`](https://ubcgss.github.io/finance_accounting_guide/assets/data/budget_lines.json)),
+>   so update the guide's `_data/budget_lines.yml` when the chart of accounts
+>   changes. Taxes, cards and departments are still kept in the skill itself.
 > - **Deleting** through the connector fails with an authorization error, so
 >   delete in the Zoho web app.
 > - To see reports submitted by other people, Claude needs to use the

@@ -85,88 +85,11 @@ Ensure all submitted expense amounts match the actual final credit card transact
 
 ## Budget Lines (Account Codes)
 
-Use these codes when entering expenses. If no code fits, use `899` (Misc.) and confirm with the FO.
-
-### Compensation and Staff Support
-
-| Code | Account | Usage |
-|------|---------|-------|
-| `700` | Employee Salaries (FT) | Full-time employee salary costs |
-| `701` | PT Labour — Commercial Events | Part-time labour for commercial events |
-| `702` | PT Labour — AO Subsidies | Part-time labour for AO subsidy work |
-| `704` | PT Labour — Grad Events | Part-time labour for graduate events |
-| `705` | Employee Benefits (FT) | Benefits for full-time employees |
-| `706` | Employee Benefits (PT) | Benefits for part-time employees |
-| `710` | Executive Honoraria | Executive compensation paid as honoraria |
-| `715` | Honoraria | Non-executive approved honoraria |
-| `730` | Professional Development — Staff | Training for staff |
-| `731` | Professional Development — Executives | Training for executives |
-| `740` | Staff Appreciation | Staff recognition costs |
-| `880` | PT Staff Costs — Projects | Part-time staffing for project delivery |
-| `881` | PT Staff Costs — Events | Part-time staffing for events |
-| `883` | PT Staff Costs — Orientation | Part-time staffing for orientation |
-
-### Professional and Contracted Services
-
-| Code | Account | Usage |
-|------|---------|-------|
-| `720` | Professional Services | Accounting, legal, specialist advisory |
-| `725` | Contracted Services | Outsourced operational services under contract |
-
-### Operations, Facilities, and IT
-
-| Code | Account | Usage |
-|------|---------|-------|
-| `750` | Occupancy (Lease Agreement) | Lease and occupancy costs |
-| `751` | Temporary Commercial Activity | Temporary commercial activity fees |
-| `752` | Office Phones | Telephony costs |
-| `753` | Insurance | Insurance premiums |
-| `760` | Repairs and Maintenance | Facility or asset repairs |
-| `761` | Equipment | Equipment purchases |
-| `770` | Marketing — Advertising and Promotion | Marketing and promotional spending |
-| `800` | Office Supplies | Office consumables |
-| `810` | Dues and License Fees | Membership dues, license fees |
-
-### Governance and Meetings
-
-| Code | Account | Usage |
-|------|---------|-------|
-| `820` | Elections Expenses | Elections administration |
-| `830` | Executive Retreat | Executive retreat costs |
-| `835` | Council/Committee Retreat | Council or committee retreat costs |
-| `845` | Meeting Expenses | Governance and planning meetings |
-| `850` | Student Recognition | Student recognition costs |
-| `855` | Donations | Approved donations |
-| `866` | All Meetings | General meeting costs |
-| `870` | Annual General Meetings | AGM costs |
-| `872` | Executive Meetings | Executive meeting costs |
-
-### Travel and Conferences
-
-| Code | Account | Usage |
-|------|---------|-------|
-| `840` | Travel/Conference Costs | Approved travel and conference costs |
-
-### Programs, Grants, and Student Support
-
-| Code | Account | Usage |
-|------|---------|-------|
-| `785` | CPIF Fund Expenses | Capital Improvement Fund spending |
-| `860` | Student Initiative Program (Event Fund) | AO event fund expenditures |
-| `861` | Project Expenses: BGSN | BGSN project costs |
-| `862` | Project Expenses: Food Security | Food security initiative costs |
-| `863` | Project Expenses: Baby Hamper | Baby hamper initiative costs |
-| `864` | HSA | HSA program expenditures |
-| `865` | GSFA | Graduate student financial aid disbursements |
-| `885` | Program Costs | Approved program delivery costs |
-| `886` | Event Costs | Approved event delivery costs |
-| `887` | Orientation Costs | Orientation programming costs |
-
-### Other
-
-| Code | Account | Usage |
-|------|---------|-------|
-| `899` | Misc. | Residual expenses only when no specific code applies |
+From June 1, 2026 (FY2026-27), every budget line uses a 4-digit code, and the old 3-digit
+codes are inactive in Zoho. The full list, with a search box and real examples, is on the
+finance guide's [Budget Categories](https://ubcgss.github.io/finance_accounting_guide/zoho/budget-categories/)
+page. It is the only maintained list, so it is not repeated here. If no line fits, confirm
+with the FO before using `6990` Other Expenses - Operating.
 
 ---
 
