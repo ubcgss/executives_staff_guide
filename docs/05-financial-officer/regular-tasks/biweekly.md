@@ -36,7 +36,7 @@ Every two weeks, review and approve everything waiting for you in Zoho
 Expenses, then approve the resulting payments in Plooto.
 
 Before approving in Plooto, you can have Claude check the queue for duplicate
-payments. See [Claude → Checking Plooto payments](../../tools/claude/#checking-plooto-payments-for-duplicates-before-approval).
+payments. See [Claude → Checking Plooto payments](../../tools/claude/#9-checking-plooto-payments-for-duplicates-before-approval).
 
 **Credit card expenses:**
 
