@@ -16,7 +16,7 @@ how to use it safely.
 
 | Tool | What it's for | Account |
 |------|---------------|---------|
-| [Claude](claude/) | AI assistant: email thread and meeting-note review, legal document prep, keeping this guide current | Confirm with GM |
+| [Claude](claude/) | AI assistant: email thread and meeting-note review, legal document prep, Plooto duplicate checks, keeping this guide current | Confirm with GM |
 | [Zoho MCP](claude/#zoho-mcp) | Claude connector for Zoho Books reports and Zoho Expense reports | FO's Zoho login |
 | [Spark](spark/) | Email client: fast sorting with shortcuts, reminders, scheduled send | `finance@gss.ubc.ca` |
 | [FollowUpThen](followupthen/) | Email reminders by forwarding or BCC | No account needed |

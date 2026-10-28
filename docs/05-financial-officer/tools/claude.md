@@ -156,6 +156,51 @@ and upload it under **Customize → Skills**.
 every proposed clause. The HFC and the Code and Policy Committee own the final
 wording.
 
+### 9. Checking Plooto payments for duplicates before approval
+
+Plooto has paid the same reimbursement twice. One payee had two Plooto contacts
+sharing one email, and five of their expense reports were paid again months later.
+In another case, the same report was paid twice two weeks apart. The
+[`plooto-review`](https://github.com/ubcgss/kip/tree/main/.claude/skills/plooto-review)
+skill checks the queue for this before you approve. It:
+
+1. Logs in to Plooto in a minimized Chrome window and downloads the pending
+   and completed payments. It checks that each download has the same number of
+   rows as Plooto shows.
+2. Adds the completed payments to a running ledger of every Plooto payment,
+   kept on your computer.
+3. Flags any pending payment that repeats an earlier one (same payee email,
+   expense report number, amount and memo), and any e-transfer re-sent to a
+   different email while the first one can still be accepted. It also warns when
+   one email belongs to several Plooto contacts, and when an expense report isn't
+   approved in Zoho yet or Plooto pays more than the report total.
+4. Saves a findings file with a Zoho link for each flagged payment.
+
+> *"Check the Plooto approvals for duplicates."*
+
+It only reads. It never approves, declines, cancels or edits a payment, and you
+still approve each payment in Plooto yourself.
+
+**Setup (once, in Claude Code):** the skill runs only in the `kip` repo in
+Claude Code, because it drives a browser on your computer and reads the
+password from the macOS Keychain. It doesn't run in the Claude app.
+
+1. In Terminal, store your Plooto password:
+   `security add-generic-password -U -s plooto-gss -a <your Plooto email> -w`
+2. In `kip`, log in once by hand:
+   `.venv/bin/python plooto_review/scripts/fetch_plooto.py --manual-login --user <your Plooto email>`.
+   Enter the authenticator code and tick **Remember this device for the next
+   30 days**. After that, 2FA comes back about once a month: rerun the same
+   command.
+
+At FO handover, the outgoing FO deletes the Keychain entry and the
+`.pw-profile-plooto/` folder in `kip`. The incoming FO repeats the setup.
+
+**You still check:** each flagged payment in Plooto before approving.
+Recall or cancel a re-sent e-transfer that is still waiting to be accepted.
+Hold payments for any report that isn't approved in Zoho yet. The check only
+sees Plooto, so a reimbursement paid by cheque or card won't show up as a match.
+
 ---
 
 ## Zoho MCP
