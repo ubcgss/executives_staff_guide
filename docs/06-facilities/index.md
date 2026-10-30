@@ -23,7 +23,7 @@ agreement links and approved project folder links.
 | [Our Spaces](our-spaces/) | Thea Koerner House rooms, GLC, Study Room, GSS Loft, Ballroom, and shared spaces |
 | [Bookings and Event Support](bookings-event-support/) | Venue requests, lead times, alcohol rules, supervision, and access coordination |
 | [Active Projects](active-projects/) | Current facilities projects and project folders |
-| [Key Contacts](key-contacts/) | Role-based contact map without private details |
+| [Key Contacts](key-contacts/) | Role-based contact map and link to the Operations Contact List |
 | [Agreements and Leases](agreements-leases/) | Final agreement and lease references |
 | [Recurring Obligations](recurring-obligations/) | Regular checks, renewals, reporting, and follow-up |
 
