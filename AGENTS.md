@@ -19,6 +19,7 @@ The UBC Graduate Student Society (GSS) uses this site as a practical reference f
 - Do not store credentials, account numbers, passwords, private access links, or other sensitive operational details in the guide.
 - Verify policy-sensitive content against current GSS source documents or flag it as needing confirmation.
 - Do not revert unrelated local changes.
+- Do not add "Co-Authored-By: Claude" trailers to commit messages or Claude Code attribution to PR descriptions (also disabled in `.claude/settings.json`).
 - After any major change, explicitly suggest the git sync flow: `git add`, `git commit`, `git pull --rebase`, `git push`.
 
 ## Git workflow
