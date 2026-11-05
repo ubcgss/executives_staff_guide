@@ -99,6 +99,9 @@ Last month's and year-to-date actuals, summarized by department and budget
 category. This section is generated automatically from the prior month's data,
 so no manual preparation is required beyond reviewing the output for accuracy.
 
+Once you have reviewed the report, save it to the [Monthly Budget vs. Actuals folder](https://ubcgss.sharepoint.com/:f:/r/sites/HouseFinanceCommittee/Shared%20Documents/Financial%20Reporting/Monthly%20Budget%20vs.%20Actuals?d=wbd66d695bf1743ba8ffdefd91f531b4c&csf=1&web=1&e=aoQqZt)
+in the House Finance Committee SharePoint.
+
 **1.2 Financial Developments**
 
 A brief update on relevant financial matters since the last Council meeting,

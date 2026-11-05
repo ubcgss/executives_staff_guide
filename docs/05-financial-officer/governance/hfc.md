@@ -52,7 +52,8 @@ As responsible executive, you:
 A standard HFC package contains:
 1. Agenda (prepared by GM or HFC Chair)
 2. Monthly profit and loss statement (prepared by Bookkeeper/Accountant)
-3. Budget-to-actuals report for each department
+3. Budget-to-actuals report for each department (saved in the
+   [Monthly Budget vs. Actuals folder](https://ubcgss.sharepoint.com/:f:/r/sites/HouseFinanceCommittee/Shared%20Documents/Financial%20Reporting/Monthly%20Budget%20vs.%20Actuals?d=wbd66d695bf1743ba8ffdefd91f531b4c&csf=1&web=1&e=aoQqZt))
 4. Any items requiring HFC approval (e.g., unbudgeted expenditures, budget
    reallocations, new contracts)
 5. Minutes from the previous HFC meeting (for approval)
