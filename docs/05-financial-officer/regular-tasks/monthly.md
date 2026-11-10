@@ -22,8 +22,8 @@ On the **10th of each month**:
    - **Credit card statement** from [Vancity credit card online banking](https://creditcards.vancity.com/).
    - **Bank account statements** (previous month, one per Vancity account) from [Vancity online banking](https://my.vancity.com/banking/home).
 2. Add the statements to the matching folder in the Finance and Accounting SharePoint:
-   - [Vancity Banking](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Bank%20and%20Investment%20Statements/Vancity%20Banking%2091577945?d=w39798ac73b464cb4bb5e1203813f6911&csf=1&web=1&e=Twgk4d): bank account statements
-   - [Vancity Credit Card](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Bank%20and%20Investment%20Statements/Vancity%20Credit%20Card%200139?d=w952d009b46ea4af8a3326fcc7252f5e7&csf=1&web=1&e=bhbpVg): credit card statements
+   - [Vancity Banking](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Banking,%20Credit%20Card,%20and%20Investment%20Statements/Vancity%20Banking%2091577945?d=w39798ac73b464cb4bb5e1203813f6911&csf=1&web=1&e=78m5Ty): bank account statements
+   - [Vancity Credit Card](https://ubcgss.sharepoint.com/:f:/r/sites/FinanceandAccounting/Shared%20Documents/General/Banking,%20Credit%20Card,%20and%20Investment%20Statements/Vancity%20Credit%20Card%200139?d=w952d009b46ea4af8a3326fcc7252f5e7&csf=1&web=1&e=nXHFfR): credit card statements
 3. Send the statements to the Accountant and General Manager. *Note: This email is already written so you only have to find it, click on ''send again'' and include the updated statements. The subject line starts with "Vancity Statements yyyy-mm" (update to the current month).*
 
 This provides the Accountant with the official statements needed for
