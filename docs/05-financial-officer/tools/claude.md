@@ -12,8 +12,9 @@ permalink: /docs/05-financial-officer/tools/claude/
 Claude is an AI assistant from Anthropic. The FO uses it in two ways:
 
 - **Claude app** (web, desktop, or mobile) for reading, summarizing, and
-  drafting. Connectors let it read Notion, Dropbox, Zoho, and email or calendar
-  directly, so you don't have to copy and paste.
+  drafting. Connectors let it read Notion, Dropbox, and Zoho directly, so you
+  don't have to copy and paste. The finance inbox (`finance@gss.ubc.ca`) can't
+  connect to Claude, so email work goes through [Spark](../spark/) in Claude Code.
 - **Claude Code** (a command-line tool) for work on files and repositories, such
   as editing this guide, running scripts, and reusable GSS workflows ("skills").
   The GSS skills and automations live in the private
@@ -150,7 +151,8 @@ placeholders.
 In Claude Code, the skill is already there when you work in the `kip` repo. To
 use it in the Claude app, install it the same way as the receipt skill (see
 [How to set it up](#how-to-set-it-up)): zip `.claude/skills/draft-gss-policy/`
-and upload it under **Customize → Skills**.
+and upload it under **Customize → Skills**. To change it, see
+[Changing a skill](#changing-a-skill).
 
 **You still check:** the quoted existing policy against the current manual, and
 every proposed clause. The HFC and the Code and Policy Committee own the final
@@ -201,6 +203,49 @@ Recall or cancel a re-sent e-transfer that is still waiting to be accepted.
 Hold payments for any report that isn't approved in Zoho yet. The check only
 sees Plooto, so a reimbursement paid by cheque or card won't show up as a match.
 
+### 10. Reviewing Zoho Expense reports before approval
+
+The
+[`review-zoho-reports`](https://github.com/ubcgss/kip/tree/main/.claude/skills/review-zoho-reports)
+skill goes through every report still in the approval chain, from every
+submitter, before it reaches you. It checks:
+
+- **Receipts:** one is attached, and it shows the purchase date, merchant, total
+  paid and an itemized description. Restaurant expenses need both the itemized
+  receipt and the payment receipt, with a tip of 18% or less. A line that came
+  from the card feed already proves payment and the purchase date.
+- **Customer and project** on tracked lines (GSFA, Baby Hamper, Meal Subsidy,
+  AO Funding), and that the project's year matches the fiscal year of the
+  expense date.
+- **Budget category:** the report's Budget Category matches the lines with the
+  most dollars, and each line's category is an active budget line that fits what
+  was bought, using the
+  [finance guide's budget lines](https://ubcgss.github.io/finance_accounting_guide/).
+- **Report title**, against the `YYYY-MM | PORTFOLIO-CODE | Budget Category |
+  Purpose` format and the report's Department tag.
+- **Zoho's duplicate flags**, showing what differs so you can decide.
+- **Business Purpose** is filled in, and the **T4A** box is ticked on honoraria,
+  stipends and awards paid to individuals (including GSFA awards).
+
+It returns clear errors (FLAG), items that need your judgement (WARN) and notes
+(INFO), with a Zoho link for each report. It proposes fixes for missing projects
+and titles, and drafts one email per submitter about the clear errors. It never
+approves, rejects or sends anything, and it only applies the fixes you name.
+
+> *"Review the Zoho Expense reports in the approval queue."*
+
+It runs in two ways:
+
+| | Claude app | Claude Code in `kip` |
+|---|---|---|
+| Reports per run | About 10 per chat | The whole queue |
+| Receipt contents | Not read, unless you drop the receipt in the chat | Read as text |
+| Setup | Zip `.claude/skills/review-zoho-reports/` and upload it under **Customize → Skills**, as in [How to set it up](#how-to-set-it-up) | Zoho Expense API credentials in `kip/.env` (ask the outgoing FO) |
+
+**You still check:** each FLAG in Zoho before emailing the submitter, and every
+WARN yourself. Duplicate flags in particular are often legitimate, such as bulk
+orders that repeat an amount. Read each draft email before you send it.
+
 ---
 
 ## Zoho MCP
@@ -226,7 +271,8 @@ systems themselves.
 5. **Install the receipt skill.** In [`ubcgss/kip`](https://github.com/ubcgss/kip),
    download `.claude/skills/zoho-receipt-to-report/`, zip the folder, and upload it
    in Claude under **Customize → Skills** (code execution must be on). In Claude
-   Code, the skill is already there when you work in the `kip` repo.
+   Code, the skill is already there when you work in the `kip` repo. To change a
+   skill later, see [Changing a skill](#changing-a-skill).
 6. **Test it:** ask *"List my Zoho Expense reports from this month."*
 
 {: .note }
@@ -244,9 +290,9 @@ systems themselves.
 - **Create reports and upload expenses.** Turn an autoscanned receipt into a
   correctly coded draft report. See [Filing receipts](#filing-receipts-with-claude)
   below.
-- **Pre-review the approval queue.** Ask Claude to go through the reports
-  awaiting your level-4 approval and flag missing receipts, wrong budget lines,
-  or amounts that don't match the receipt.
+- **Pre-review the approval queue.** Have Claude check every report in the
+  approval chain for missing receipts, projects, budget lines and T4A boxes. See
+  [Reviewing Zoho Expense reports](#10-reviewing-zoho-expense-reports-before-approval).
 - **Clean up report titles.** Standardize titles to
   `YYYY-MM | PORTFOLIO-CODE | Budget Category | Purpose`, for example
   `2026-06 | 10-CORP | Operations, Facilities & IT | Office Coffee`. Missing parts
@@ -284,7 +330,7 @@ It usually gets these wrong, so Claude always checks them:
 {% endcomment %}
 
 {: .note }
-> **Known limits (as of September 2026):**
+> **Known limits (as of November 2026):**
 >
 > - **The connector cannot upload files.** Receipts go into Zoho through
 >   autoscan (web upload or mobile app), never through Claude.
@@ -299,8 +345,71 @@ It usually gets these wrong, so Claude always checks them:
 >   **approval** view. The default view shows only your own reports.
 > - On an expense, `amount` is **pre-tax** and `total` is what was actually
 >   charged. Match receipts and card statements against `total`.
+> - **Bulk expense updates** take at most 50 expenses per call. Zoho rejects a
+>   larger call outright and applies none of it, so Claude sends larger sets in
+>   batches of 50.
 
 {: .warning }
 Before any change to Zoho, have Claude list the exact changes first (a dry
 run), review them, then confirm. Never approve a bulk update you haven't read
 line by line.
+
+---
+
+## Notion connector
+
+The Notion connector lets Claude read and update the GSS Notion workspace:
+meeting notes, the task list, and the GSS page. Each FO connects their own
+Notion account.
+
+### Setting up Notion
+
+1. In Claude, go to
+   [Customize → Connectors](https://claude.ai/new#customize/connectors), add
+   **Notion**, and sign in with the Notion account that has access to the GSS
+   workspace (see [System Access](../../transition/accounts-access/)).
+2. In the connector's tool permissions, set the read tools (search, fetch,
+   query) to run **without asking**, and every tool that **can write** (create,
+   update, move, comment) to **ask**, so Claude shows you each change first.
+3. **Keep the delete tools off.** Delete pages in Notion yourself.
+4. **Test it:** ask *"What action items came out of my last HFC meeting notes?"*
+
+**FO uses:**
+- **Meeting notes.** Pull action items, owners and deadlines from the GSS
+  Meeting Notes database. See
+  [Reviewing tasks and notes](#3-reviewing-tasks-and-notes-from-notion-meeting-records).
+- **Tasks.** Add tasks to the **GSS Tasks** database on the GSS page, or tick
+  them off. Give each task an importance (`Imp.`) and a due date so it's ready
+  to sort.
+  > *"Add a task to follow up with the Bookkeeper on the October bank
+  > reconciliation, due next Friday."*
+- **Meeting agendas.** Add items for the Executive, HFC or Finance & Accounting
+  meetings to the **To include in meeting agendas** toggle on the GSS page, one
+  line each, marked *Motion* when a vote is needed.
+- **Work log.** Keep the work log current for the
+  [monthly FO work update](../../regular-tasks/monthly/#2-fo-work-update).
+
+**You still check:** that a task or agenda item landed in the right database or
+section before you rely on it.
+
+---
+
+## Changing a skill
+
+A skill is a folder with a `SKILL.md` file of instructions, plus any scripts it
+uses. The GSS skills are in `.claude/skills/` in
+[`ubcgss/kip`](https://github.com/ubcgss/kip).
+
+- **While the outgoing FO still maintains them,** the copies in `kip` are
+  generated from a separate source, and a direct edit in `kip` is overwritten
+  the next time they update. Ask the outgoing FO to make the change.
+- **After handover,** the copies in `kip` are yours. Open `kip` in Claude Code
+  and describe the change, for example *"Update the receipt skill: the Events
+  Manager's card now ends in 1234."* Claude edits the `SKILL.md` on a branch and
+  opens a pull request. Merge it once you've read the change.
+- **Then update the Claude app.** Zip the changed skill folder again and upload
+  it under **Customize → Skills**, replacing the old version. Claude Code picks
+  up the change from `kip` without this step.
+
+When a rule changes (a new budget line, card or department), update the skill
+in the same week so Claude doesn't keep applying the old rule.
