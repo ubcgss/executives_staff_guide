@@ -47,7 +47,7 @@ AutomatedGSSReports server, so access does not pass on automatically.
 
 **Outgoing FO** (on or before August 31):
 1. In Claude, go to [Customize → Connectors](https://claude.ai/new#customize/connectors)
-   and remove the Zoho Expense connector.
+   and remove the Zoho Expense and Notion connectors.
 2. In [Zoho MCP](https://mcp.zoho.com/mcp-client/933047808#/server), open the
    AutomatedGSSReports server and revoke or delete the integration URL /
    connection you used.

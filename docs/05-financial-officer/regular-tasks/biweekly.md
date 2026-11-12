@@ -38,6 +38,10 @@ Expenses, then approve the resulting payments in Plooto.
 Before approving in Plooto, you can have Claude check the queue for duplicate
 payments. See [Claude → Checking Plooto payments](../../tools/claude/#9-checking-plooto-payments-for-duplicates-before-approval).
 
+Before approving in Zoho Expenses, you can have Claude pre-review the queue for
+missing receipts, projects, budget lines and T4A boxes. See
+[Claude → Reviewing Zoho Expense reports](../../tools/claude/#10-reviewing-zoho-expense-reports-before-approval).
+
 **Credit card expenses:**
 
 | Step | Who | Deadline |
