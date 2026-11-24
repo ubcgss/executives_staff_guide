@@ -2,6 +2,7 @@
 layout: default
 title: President
 nav_order: 2
+has_children: true
 permalink: /docs/01-president/
 ---
 
@@ -26,7 +27,7 @@ responsibilities.
 | Area | Notes to document |
 |------|------------------|
 | Executive coordination | Meeting cadence, agenda ownership, follow-up expectations |
-| Council and governance | Reports, motions, bylaw or policy obligations |
+| Council and governance | Reports, motions, bylaw or policy obligations; see [Bylaw Amendments](bylaw-amendments/) for filing and notifying bylaw changes |
 | Signing authority | Finance approvals shared with the FO and VP UAA |
 | Staff relationship | Interfaces with the GM and relevant committees |
 
