@@ -104,7 +104,7 @@ is filed. A name change also needs a name reservation first.
 
 ## Policy Manual Amendments
 
-Policy Manual changes are made by Council, not by the Registrar. They carry
+Policy Manual changes are not filed with the Registrar. They carry
 their own requirements:
 
 - Notice of the proposed change, with a brief rationale, must be in the
