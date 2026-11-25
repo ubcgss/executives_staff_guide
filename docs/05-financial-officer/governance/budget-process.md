@@ -149,13 +149,10 @@ folder in Dropbox.
    when the money moves (for example UBC fee remittances in June, October, and
    February), not an even 1/12 when the payments are lumpy. Use the Calendar
    rows on the Assumptions tab.
-7. **Every change is logged and approved.** Each revision has an entry in the
-   change log with its effect on the net. Reallocations are reported to Council.
-
-{: .warning }
-> **Needs confirmation:** whether a revision that *increases* the budgeted
-> deficit, rather than moving money between lines, needs a Council motion.
-> Confirm with HFC before relying on this page.
+7. **Every change is logged and reported.** Each revision has an entry in the
+   change log with its effect on the net. Revisions, including corrections that
+   increase the budgeted deficit, are reported to Council at the next meeting;
+   no Council motion is needed.
 
 ---
 
