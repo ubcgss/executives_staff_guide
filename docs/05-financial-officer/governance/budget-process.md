@@ -56,6 +56,8 @@ If changes are needed, log them in the *Chart of Accounts – Change Log* sheet 
 ### May
 - HFC reviews and discusses the second departmental draft budgets.
 - Executives make recommended changes.
+- FO runs the [Budget Integrity Review](#budget-integrity-review) on the final
+  draft and fixes or explains every finding before HFC approval.
 - HFC approves the final master budget **at least one week before** the May
   Council meeting.
 - FO presents the final master budget at the May Council meeting.
@@ -108,6 +110,52 @@ costs.
 During the fiscal year, reallocations between budget lines may be made by
 the FO in consultation with the Executives and the HFC. Such redistributions
 **must be reported to Council**.
+
+---
+
+## Budget Integrity Review
+
+The review checks that the **budget itself** is built correctly: every number
+traceable to a source, calculated rather than copied, and adding up. It is not
+the monthly budget vs. actuals review.
+
+**When:** on the final draft before HFC approval, and again after every revision
+of the master during the year.
+
+**How:** run the [Budget Check](../../tools/budget-check/) on a saved copy of the
+master, then work through the list below. Items 1–5 are in the tool's report;
+items 6 and 7 are by hand. Save the report and your notes in the budget task
+folder in Dropbox.
+
+1. **Parameters are sourced and valid for the whole year.** Each contract
+   amount, rate, and payment date on the Assumptions tab names its source
+   document and clause and covers June 1 to May 31. Lapsed parameters are
+   renewed from the contract, an HFC decision, or the previous value inflated by
+   CPI. *(Tool: Parameters)*
+2. **Lines are calculated, not rolled forward.** A line with its own
+   calculation tab (FT Staff, Honoraria, WL Supporting, and others) links to it.
+   Lines rolled forward from last year are small, have no better basis, and say
+   so in the Notes column. *(Tool: Rolled-forward formulas)*
+3. **No hard-coded numbers.** Rates and amounts live on the Assumptions tab and
+   formulas link to them. No numbers inside formulas, and no typed values among
+   formulas. *(Tool: Hard-coded numbers)*
+4. **The workbook adds up.** Each line's annual amount equals its months,
+   every code is in the Chart of Accounts, and Consolidated equals the
+   department tabs. *(Tool: Internal consistency)*
+5. **Required costs have a line.** Employer CPP/EI, WorkSafeBC, the audit,
+   insurance, the lease, and bank fees each have a budget. *(Tool: Required
+   lines)*
+6. **Months match the payment calendar.** Each line's monthly spread follows
+   when the money moves (for example UBC fee remittances in June, October, and
+   February), not an even 1/12 when the payments are lumpy. Use the Calendar
+   rows on the Assumptions tab.
+7. **Every change is logged and approved.** Each revision has an entry in the
+   change log with its effect on the net. Reallocations are reported to Council.
+
+{: .warning }
+> **Needs confirmation:** whether a revision that *increases* the budgeted
+> deficit, rather than moving money between lines, needs a Council motion.
+> Confirm with HFC before relying on this page.
 
 ---
 
