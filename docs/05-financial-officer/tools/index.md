@@ -21,3 +21,4 @@ how to use it safely.
 | [Notion connector](claude/#notion-connector) | Claude connector for meeting notes, GSS Tasks, and meeting agenda items | FO's Notion login |
 | [Spark](spark/) | Email client: fast sorting with shortcuts, reminders, scheduled send | `finance@gss.ubc.ca` |
 | [FollowUpThen](followupthen/) | Email reminders by forwarding or BCC | No account needed |
+| [Budget Check](budget-check/) | Lists likely errors in the master budget: unsourced parameters, rolled-forward lines, hard-coded numbers, totals that don't add up | No account needed |
