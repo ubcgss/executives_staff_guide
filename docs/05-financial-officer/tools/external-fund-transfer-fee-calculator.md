@@ -9,14 +9,13 @@ permalink: /docs/05-financial-officer/tools/external-fund-transfer-fees/
 
 # External Fund Transfer Fee Calculator
 
-The **External Fund Transfer Fee Calculator**, fee & CPI reference, and Zoho
-Books accounting procedure (`2230` / `4800`) live in the
+The **External Fund Transfer Fee Calculator**, fee basis, and Zoho Books
+recording steps live in the
 [GSS Finance & Accounting Guide](https://ubcgss.github.io/finance_accounting_guide/tools/external-fund-transfer-fees/),
 used by the GM, Accountant, and FO to prepare batch calculation records and post
 transfers.
 
-[Open Fee Calculator (Finance & Accounting Guide)](https://ubcgss.github.io/finance_accounting_guide/assets/external-fund-transfer-fee-calculator/){: .btn .btn-primary }
-[Read Fee Basis & Bookkeeping SOP](https://ubcgss.github.io/finance_accounting_guide/tools/external-fund-transfer-fees/){: .btn }
+[Open External Fund Transfer Fee Calculator](https://ubcgss.github.io/finance_accounting_guide/tools/external-fund-transfer-fees/){: .btn .btn-primary }
 
 {: .note }
 > Governed by the [House-Finance Policy, Appendix III and Appendix IV](https://gss.ubc.ca/by-laws-code-policies/),
