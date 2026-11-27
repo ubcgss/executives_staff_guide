@@ -129,7 +129,9 @@ folder in Dropbox.
 
 1. **Parameters are sourced and valid for the whole year.** Each contract
    amount, rate, and payment date on the Assumptions tab names its source
-   document and clause and covers June 1 to May 31. Lapsed parameters are
+   document and clause and covers June 1 to May 31. A value that changes during
+   the year (such as CRA payroll rates on January 1) has one row per period, and
+   each month uses the row that covers it. Lapsed parameters are
    renewed from the contract, an HFC decision, or the previous value inflated by
    CPI. *(Tool: Parameters)*
 2. **Lines are calculated, not rolled forward.** A line with its own
@@ -137,8 +139,9 @@ folder in Dropbox.
    Lines rolled forward from last year are small, have no better basis, and say
    so in the Notes column. *(Tool: Rolled-forward formulas)*
 3. **No hard-coded numbers.** Rates and amounts live on the Assumptions tab and
-   formulas link to them. No numbers inside formulas, and no typed values among
-   formulas. *(Tool: Hard-coded numbers)*
+   formulas link to them. No numbers inside formulas, no typed values among
+   formulas, and no links to other workbooks. *(Tool: Hard-coded numbers,
+   Internal consistency)*
 4. **The workbook adds up.** Each line's annual amount equals its months,
    every code is in the Chart of Accounts, and Consolidated equals the
    department tabs. *(Tool: Internal consistency)*
